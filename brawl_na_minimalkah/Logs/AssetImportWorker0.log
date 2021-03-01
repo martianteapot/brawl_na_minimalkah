@@ -1,0 +1,1990 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.804; Version 2004; 64bit' Language: 'ru' Physical Memory: 16302 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Mas1erDisaster/Favorites/clone/brawl_na_minimalkah/brawl_na_minimalkah
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57403
+Successfully changed project path to: C:/Users/Mas1erDisaster/Favorites/clone/brawl_na_minimalkah/brawl_na_minimalkah
+C:/Users/Mas1erDisaster/Favorites/clone/brawl_na_minimalkah/brawl_na_minimalkah
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 26.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Mas1erDisaster/Favorites/clone/brawl_na_minimalkah/brawl_na_minimalkah/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   
+    VRAM:     10078 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002231 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 29.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.987 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.713 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.0 MB.
+System memory in use after: 58.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1541.
+Total: 1.652400 ms (FindLiveObjects: 0.104700 ms CreateObjectMapping: 0.028400 ms MarkObjects: 1.459200 ms  DeleteObjects: 0.059200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Bitgem/Cube_World
+  artifactKey: Guid(26ad93a7932c8364fb6983a02304d5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World using Guid(26ad93a7932c8364fb6983a02304d5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21868bac5c21ddcb11cd32f1e7dce56a') in 0.009827 seconds
+  Import took 0.011435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.122969 seconds.
+  path: Assets/Bitgem/Cube_World/Ground
+  artifactKey: Guid(5733287828a334ce2bb80e79f3623c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Ground using Guid(5733287828a334ce2bb80e79f3623c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3437e290129a81eb067bc62e57e5b85a') in 0.007616 seconds
+  Import took 0.009174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.167829 seconds.
+  path: Assets/Bitgem/Cube_World/Ground/Prefabs
+  artifactKey: Guid(e0bc566496aa744b7b066d12e1f5ba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Ground/Prefabs using Guid(e0bc566496aa744b7b066d12e1f5ba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7445ef27c821b8870f5ff79a34641db4') in 0.006039 seconds
+  Import took 0.008932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080483 seconds.
+  path: Assets/Bitgem/Cube_World/Ground/Prefabs/grass_deco_1.prefab
+  artifactKey: Guid(5d233c9f818e1c44bba611ba09afecde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Ground/Prefabs/grass_deco_1.prefab using Guid(5d233c9f818e1c44bba611ba09afecde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b1c920469089f14a987bce54f6a87e') in 0.407560 seconds
+  Import took 0.409915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Bitgem/Cube_World/Ground/Prefabs/ground_cube.prefab
+  artifactKey: Guid(c980d1f27dc965a44af9a3652477671c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Ground/Prefabs/ground_cube.prefab using Guid(c980d1f27dc965a44af9a3652477671c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5481cb54582ad534ecededa40a35ca1b') in 0.030378 seconds
+  Import took 0.032018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Bitgem/Cube_World/Ground/Prefabs/grass_deco_2.prefab
+  artifactKey: Guid(31060757561fbca4aa04ce09707be53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Ground/Prefabs/grass_deco_2.prefab using Guid(31060757561fbca4aa04ce09707be53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddf735afd17bddaefec11585342506e') in 0.031530 seconds
+  Import took 0.033185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Bitgem/Cube_World/Ground/Prefabs/ground_cube_grass.prefab
+  artifactKey: Guid(98dd8e405a3f26848b63e1b78dfb7c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Ground/Prefabs/ground_cube_grass.prefab using Guid(98dd8e405a3f26848b63e1b78dfb7c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14678f0b1210e1822834be5edc85fc91') in 0.028332 seconds
+  Import took 0.029944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Bitgem/Cube_World/Ground/Prefabs/grass_deco_3.prefab
+  artifactKey: Guid(e6fa533d6b78ebd4583a2825108c02cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Ground/Prefabs/grass_deco_3.prefab using Guid(e6fa533d6b78ebd4583a2825108c02cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bcfd51d7e67c15e1a0fb285948976f') in 0.036647 seconds
+  Import took 0.038224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.281559 seconds.
+  path: Assets/Bitgem/Cube_World/Ground/Source
+  artifactKey: Guid(54811d576edbb4860843a10f484c6da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Ground/Source using Guid(54811d576edbb4860843a10f484c6da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd3feb77f12d8b1e779661dec4fa338') in 0.006034 seconds
+  Import took 0.007702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000618 seconds.
+  path: Assets/Bitgem/Cube_World/Ground/Source
+  artifactKey: Guid(54811d576edbb4860843a10f484c6da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Ground/Source using Guid(54811d576edbb4860843a10f484c6da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd3feb77f12d8b1e779661dec4fa338') in 0.002597 seconds
+  Import took 0.004168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064810 seconds.
+  path: Assets/Bitgem/Cube_World/Ground/Source/grass_deco_1.fbx
+  artifactKey: Guid(ae0a03ed064bcbe4681e0fbb65965af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Ground/Source/grass_deco_1.fbx using Guid(ae0a03ed064bcbe4681e0fbb65965af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20e955a7ea3ebf5a955d60557e1083e') in 0.302745 seconds
+  Import took 0.305285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Bitgem/Cube_World/Ground/Source/ground_cube_grass.fbx
+  artifactKey: Guid(54eb5bf413a32cd429c34f91df363eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Ground/Source/ground_cube_grass.fbx using Guid(54eb5bf413a32cd429c34f91df363eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9748c546dc1a6b14f3cc18271e9bddd') in 0.045602 seconds
+  Import took 0.047168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Bitgem/Cube_World/Ground/Source/grass_deco_2.fbx
+  artifactKey: Guid(43a5311f8fcc3f24ead2d1b970168dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Ground/Source/grass_deco_2.fbx using Guid(43a5311f8fcc3f24ead2d1b970168dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145a217ebd4baba9ddb6235362043f29') in 0.047018 seconds
+  Import took 0.048664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Bitgem/Cube_World/Ground/Source/grass_deco_3.fbx
+  artifactKey: Guid(bbf64894fb62d2a4aa2f7e58da896921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Ground/Source/grass_deco_3.fbx using Guid(bbf64894fb62d2a4aa2f7e58da896921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d78a3dfd1a19e04a9fb9e072a406c56') in 0.042933 seconds
+  Import took 0.044516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Bitgem/Cube_World/Ground/Source/ground_cube.fbx
+  artifactKey: Guid(ee85d6d651ae95340a1b3e442a215185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Ground/Source/ground_cube.fbx using Guid(ee85d6d651ae95340a1b3e442a215185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02611dbaefe9e2bce690c6409b5da491') in 0.045078 seconds
+  Import took 0.046682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.393019 seconds.
+  path: Assets/Bitgem/Cube_World/Mining
+  artifactKey: Guid(71abde4bf54dc4b6aa4b1e07cdc59023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining using Guid(71abde4bf54dc4b6aa4b1e07cdc59023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06a4ea8635155d98ebac0dd9fddad0e') in 0.006114 seconds
+  Import took 0.007768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000829 seconds.
+  path: Assets/Bitgem/Cube_World/Mining
+  artifactKey: Guid(71abde4bf54dc4b6aa4b1e07cdc59023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining using Guid(71abde4bf54dc4b6aa4b1e07cdc59023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06a4ea8635155d98ebac0dd9fddad0e') in 0.002604 seconds
+  Import took 0.004227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.902619 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs
+  artifactKey: Guid(1f321b6ed68df4eddb08c6352835f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs using Guid(1f321b6ed68df4eddb08c6352835f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b62d4786e3ee9e4553a2abb0619c3b') in 0.002774 seconds
+  Import took 0.004382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076953 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/arrow_diamond.prefab
+  artifactKey: Guid(822b98c53de020746b6c04aa2ddc34a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/arrow_diamond.prefab using Guid(822b98c53de020746b6c04aa2ddc34a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97cdcaa40dbca87563b25d84cb16b8e') in 0.029677 seconds
+  Import took 0.031454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/axe_diamond.prefab
+  artifactKey: Guid(a90b8a8f64c187347b8b66e8cecaf8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/axe_diamond.prefab using Guid(a90b8a8f64c187347b8b66e8cecaf8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183227a82fad04528ac677cd6a97fe9d') in 0.025355 seconds
+  Import took 0.027005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/axe_metal.prefab
+  artifactKey: Guid(6ab6c3116af3ae74d82035dd5febce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/axe_metal.prefab using Guid(6ab6c3116af3ae74d82035dd5febce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1a6ccd691c8cf218756f4351314635') in 0.023487 seconds
+  Import took 0.025173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/bow_metal.prefab
+  artifactKey: Guid(9d8737b7e4f1eb247bf01cb0737661f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/bow_metal.prefab using Guid(9d8737b7e4f1eb247bf01cb0737661f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6759dae743733ff92529f4ee89c686') in 0.025609 seconds
+  Import took 0.027276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/axe_gold.prefab
+  artifactKey: Guid(7673012085a952f4ca159f2520d6c865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/axe_gold.prefab using Guid(7673012085a952f4ca159f2520d6c865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83140ecce6dbeb1746096e2bccfe8001') in 0.021793 seconds
+  Import took 0.023433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/diamond_ore_block.prefab
+  artifactKey: Guid(094d01a7d365071479ae3118af69936e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/diamond_ore_block.prefab using Guid(094d01a7d365071479ae3118af69936e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3766c431c5369492ebf4cc63d28cd7') in 0.024955 seconds
+  Import took 0.027821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/diamond_ruby.prefab
+  artifactKey: Guid(8a7b3edf55da3394b9ec2828f6e453a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/diamond_ruby.prefab using Guid(8a7b3edf55da3394b9ec2828f6e453a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6d1ba51de1d6879cf301e187fdfff8') in 0.023863 seconds
+  Import took 0.025471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/gold_ore_block_1.prefab
+  artifactKey: Guid(c231fda52154d3f4aa490fc22294271e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/gold_ore_block_1.prefab using Guid(c231fda52154d3f4aa490fc22294271e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da060d7255f2350c6bcbfe048234c5c7') in 0.026642 seconds
+  Import took 0.028357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/metal_bar.prefab
+  artifactKey: Guid(e237b5c6dca1f4f45be03383c9251d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/metal_bar.prefab using Guid(e237b5c6dca1f4f45be03383c9251d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4e2729ac959437776f5c3939a9578e') in 0.023336 seconds
+  Import took 0.025046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/metal_ore_block_1.prefab
+  artifactKey: Guid(8c28e0f860148ba41909c3938f518132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/metal_ore_block_1.prefab using Guid(8c28e0f860148ba41909c3938f518132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6fb5a664e72cd1e0127b4ebf2d97dd') in 0.026812 seconds
+  Import took 0.028558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/metal_bar_block.prefab
+  artifactKey: Guid(60c614fe54b373746acb645b86b266e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/metal_bar_block.prefab using Guid(60c614fe54b373746acb645b86b266e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68007b53f8c55dd85f4c075ce11e7c52') in 0.022990 seconds
+  Import took 0.024736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/coal_block.prefab
+  artifactKey: Guid(128413b4f7020f04695c39e209e79334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/coal_block.prefab using Guid(128413b4f7020f04695c39e209e79334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc62d93073c93715dfaba138ec2c9689') in 0.023115 seconds
+  Import took 0.024797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/gold_block.prefab
+  artifactKey: Guid(98945908536288340838272ecade0695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/gold_block.prefab using Guid(98945908536288340838272ecade0695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3814565eeb6a2bf938248f5e5ac25eb6') in 0.022409 seconds
+  Import took 0.024048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/metal_ore_block_2.prefab
+  artifactKey: Guid(a2c6968b2a4256b44bde8b97e4fcd290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/metal_ore_block_2.prefab using Guid(a2c6968b2a4256b44bde8b97e4fcd290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf6b359a864448a9c855f298e5f4c0f') in 0.025059 seconds
+  Import took 0.026782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/ruby.prefab
+  artifactKey: Guid(7eba0f49c0673d348a4dcad8d9eb4e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/ruby.prefab using Guid(7eba0f49c0673d348a4dcad8d9eb4e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6897a9c9602a4ed1aebc1aac6c05c483') in 0.028372 seconds
+  Import took 0.030097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/ruby_pile.prefab
+  artifactKey: Guid(a9df3730553afaa4ca1014580d35aef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/ruby_pile.prefab using Guid(a9df3730553afaa4ca1014580d35aef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddffb9e320d4712fa94914c6fb67722') in 0.030245 seconds
+  Import took 0.031913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/ruby.prefab
+  artifactKey: Guid(7eba0f49c0673d348a4dcad8d9eb4e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/ruby.prefab using Guid(7eba0f49c0673d348a4dcad8d9eb4e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6897a9c9602a4ed1aebc1aac6c05c483') in 0.013705 seconds
+  Import took 0.015397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/coal_pile.prefab
+  artifactKey: Guid(2828ebf2fc928d742a0b7d2e25c8e06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/coal_pile.prefab using Guid(2828ebf2fc928d742a0b7d2e25c8e06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a42942463fc90d5938e8cf153a4aaa0') in 0.025542 seconds
+  Import took 0.027247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/gold_bar.prefab
+  artifactKey: Guid(f3287c5883b849b4dbcb82580a69744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/gold_bar.prefab using Guid(f3287c5883b849b4dbcb82580a69744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961c2161062241037f0f689c0c09ea4e') in 0.024912 seconds
+  Import took 0.026517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/hammer_wood.prefab
+  artifactKey: Guid(911064bb5cf189e41acbde31b2cad989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/hammer_wood.prefab using Guid(911064bb5cf189e41acbde31b2cad989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a3b080a35ecc231a029b7e9a01cd3a') in 0.028240 seconds
+  Import took 0.029872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/bow_gold.prefab
+  artifactKey: Guid(84ce2c80620adc945b2035646facdf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/bow_gold.prefab using Guid(84ce2c80620adc945b2035646facdf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00920ced48214c2b9c1825597c782e42') in 0.027788 seconds
+  Import took 0.030403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/gold_ore_block_2.prefab
+  artifactKey: Guid(057eb5683177f384f85e486772cb7a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/gold_ore_block_2.prefab using Guid(057eb5683177f384f85e486772cb7a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac98338451fab25573a9d95deaee277b') in 0.025937 seconds
+  Import took 0.027647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/spear_gold.prefab
+  artifactKey: Guid(38cb0b4f0c9642c4b803841b24623427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/spear_gold.prefab using Guid(38cb0b4f0c9642c4b803841b24623427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ae9c7edb96d81abaf18f7c389f53d5') in 0.027574 seconds
+  Import took 0.029264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/axe_stone.prefab
+  artifactKey: Guid(0f3bb7f511af27b41b36cbd82df4475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/axe_stone.prefab using Guid(0f3bb7f511af27b41b36cbd82df4475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4dc1c17851e7a767920ef96bab71668') in 0.024855 seconds
+  Import took 0.026568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/diamond.prefab
+  artifactKey: Guid(a72c8e00c04f4ee459fabf68e0725d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/diamond.prefab using Guid(a72c8e00c04f4ee459fabf68e0725d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8619905600cb11504a9fb520af987848') in 0.024257 seconds
+  Import took 0.026077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/shovel_diamond.prefab
+  artifactKey: Guid(c4c3f3d42c4e6ca4ca77e068f470425f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/shovel_diamond.prefab using Guid(c4c3f3d42c4e6ca4ca77e068f470425f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b45f1e4fdcaf94779c2ce39609b729') in 0.027924 seconds
+  Import took 0.029577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/arrow_stone.prefab
+  artifactKey: Guid(1c2dbf038dd7c9f44b9ea73685e06f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/arrow_stone.prefab using Guid(1c2dbf038dd7c9f44b9ea73685e06f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c24e80b2af3d4ee8e907ff692d7d765') in 0.025637 seconds
+  Import took 0.027339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/bow_wood.prefab
+  artifactKey: Guid(e1dfb88105ac20d4fb9e6eb085ac9181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/bow_wood.prefab using Guid(e1dfb88105ac20d4fb9e6eb085ac9181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09c9acf8083300eb62508b57679fc39') in 0.024834 seconds
+  Import took 0.026544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/spear_metal.prefab
+  artifactKey: Guid(d288b346b2975ab43b20a5bf8c8634d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/spear_metal.prefab using Guid(d288b346b2975ab43b20a5bf8c8634d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4dcaa40f32820450d9b7ef4feada47d') in 0.026192 seconds
+  Import took 0.028861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/pickaxe_diamond.prefab
+  artifactKey: Guid(fddf800ed57475046abc53cef83a95da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/pickaxe_diamond.prefab using Guid(fddf800ed57475046abc53cef83a95da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac90958dfb73fa2f7a3c66745f3ad48') in 0.025336 seconds
+  Import took 0.027013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/canopy_block_2.prefab
+  artifactKey: Guid(6a32aae44cbb4154fa7b8c7fc2bd09f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/canopy_block_2.prefab using Guid(6a32aae44cbb4154fa7b8c7fc2bd09f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20eed83ae42c73701cd6c2cd4a2dee2') in 0.025578 seconds
+  Import took 0.027262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/spear_short_metal.prefab
+  artifactKey: Guid(d6a40735cebcd9d4d9ca9ecd4970ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/spear_short_metal.prefab using Guid(d6a40735cebcd9d4d9ca9ecd4970ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449899514b616339ede7fa530fc38ffb') in 0.026533 seconds
+  Import took 0.028110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/hammer_diamond.prefab
+  artifactKey: Guid(6c7abca5535e67342b42e771f181cb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/hammer_diamond.prefab using Guid(6c7abca5535e67342b42e771f181cb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec86c0869d2bf8ffe6e4f1d2fb4fb50') in 0.025250 seconds
+  Import took 0.027052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/pickaxe_wood.prefab
+  artifactKey: Guid(f6f3b2f20fb883141806ea0caa47b67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/pickaxe_wood.prefab using Guid(f6f3b2f20fb883141806ea0caa47b67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fffe192ef3e40a954e551a4fb80fa5') in 0.025341 seconds
+  Import took 0.027050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/spear_short_stone.prefab
+  artifactKey: Guid(4aed8c42540401141ba2cc2407ea37f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/spear_short_stone.prefab using Guid(4aed8c42540401141ba2cc2407ea37f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2296a1287f233db738471037e71769e7') in 0.028261 seconds
+  Import took 0.030178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/coal_nuggets.prefab
+  artifactKey: Guid(00569c27c8a46294fb7da9928c5aea10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/coal_nuggets.prefab using Guid(00569c27c8a46294fb7da9928c5aea10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ae9ce64d6389fb637bb026ebf4f1d5') in 0.025404 seconds
+  Import took 0.027109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/spear_short_wood.prefab
+  artifactKey: Guid(541c49ed2d76e374184792846667fcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/spear_short_wood.prefab using Guid(541c49ed2d76e374184792846667fcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4e95beee98d4d8f93d56a6d713babd') in 0.025195 seconds
+  Import took 0.026881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/arrow_metal.prefab
+  artifactKey: Guid(62dd07c3fd60ef0469ef48687b3d4c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/arrow_metal.prefab using Guid(62dd07c3fd60ef0469ef48687b3d4c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac56bca32b64a50c46c538aadc598a13') in 0.025466 seconds
+  Import took 0.027257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/spear_short_gold.prefab
+  artifactKey: Guid(4588aa478207cc8449465619fce2fb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/spear_short_gold.prefab using Guid(4588aa478207cc8449465619fce2fb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca004384c6cd991db821ab72b6093ca4') in 0.029021 seconds
+  Import took 0.030958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/hammer_gold.prefab
+  artifactKey: Guid(e0c620dafabcd8143bc75cf22e05ebcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/hammer_gold.prefab using Guid(e0c620dafabcd8143bc75cf22e05ebcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b4430e5c9213d16c2b9aa9e872f24b') in 0.029210 seconds
+  Import took 0.031885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/shovel_metal.prefab
+  artifactKey: Guid(949ca560d0867974abf1fc7a569c8189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/shovel_metal.prefab using Guid(949ca560d0867974abf1fc7a569c8189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373ec7f2e7f73051f0f07e8ecfc21178') in 0.024250 seconds
+  Import took 0.026071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/metal_pile.prefab
+  artifactKey: Guid(f03b808c36538f041a700559b6663aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/metal_pile.prefab using Guid(f03b808c36538f041a700559b6663aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc1a10f30d7dcbf7b2b65d13389d087') in 0.023871 seconds
+  Import took 0.025694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/hammer_stone.prefab
+  artifactKey: Guid(9f17c290db1ee4347962a4beaa58ce9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/hammer_stone.prefab using Guid(9f17c290db1ee4347962a4beaa58ce9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75710c29282eb168343f65dc0c14211') in 0.025139 seconds
+  Import took 0.027081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/spear_diamond.prefab
+  artifactKey: Guid(0ddaf00f6cd555b4cba3bf97ad89ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/spear_diamond.prefab using Guid(0ddaf00f6cd555b4cba3bf97ad89ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040d6e28a6fb7acfc582100da2161fbe') in 0.023544 seconds
+  Import took 0.025424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/bow_stone.prefab
+  artifactKey: Guid(7db3a1e22615ab34b9ca9535443e9a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/bow_stone.prefab using Guid(7db3a1e22615ab34b9ca9535443e9a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ec5873a366d254281aa88270ec6019') in 0.025671 seconds
+  Import took 0.027393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/shovel_gold.prefab
+  artifactKey: Guid(57195c2480cb0254f8edcfcc56c29624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/shovel_gold.prefab using Guid(57195c2480cb0254f8edcfcc56c29624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97041828895dc2c295f46cf4dfad030') in 0.024558 seconds
+  Import took 0.026158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/gold_pile.prefab
+  artifactKey: Guid(98af9c35917209b4398de64b3502a192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/gold_pile.prefab using Guid(98af9c35917209b4398de64b3502a192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dee11cc9763594543205c97184962a') in 0.023391 seconds
+  Import took 0.025044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/axe_wood.prefab
+  artifactKey: Guid(22de19fcaf3a8224897d00a708f0146d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/axe_wood.prefab using Guid(22de19fcaf3a8224897d00a708f0146d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b021119f712de00233df86a1d822cfcb') in 0.023567 seconds
+  Import took 0.025374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/pickaxe_stone.prefab
+  artifactKey: Guid(b0c828c8d855381469d6aafa51f07b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/pickaxe_stone.prefab using Guid(b0c828c8d855381469d6aafa51f07b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a330d4b4731f3f111d9bddbac9a157') in 0.023538 seconds
+  Import took 0.025146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/arrow_gold.prefab
+  artifactKey: Guid(b5c98dc41a9411a49af6f7d4f3d75dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/arrow_gold.prefab using Guid(b5c98dc41a9411a49af6f7d4f3d75dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5b5a8a06c38ea6f3c09e79154f4a08') in 0.023427 seconds
+  Import took 0.025062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/coal_ore_block_2.prefab
+  artifactKey: Guid(70757438e7658c2468a6dfb4e1111f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/coal_ore_block_2.prefab using Guid(70757438e7658c2468a6dfb4e1111f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfc9b7f0ab010ecd7462a489000199e') in 0.026492 seconds
+  Import took 0.028248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/bow_diamond.prefab
+  artifactKey: Guid(1cae7bce1351cc546b9d54c6d95f3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/bow_diamond.prefab using Guid(1cae7bce1351cc546b9d54c6d95f3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3961962dd526305b830fe048399326cd') in 0.023273 seconds
+  Import took 0.025000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/shovel_wood.prefab
+  artifactKey: Guid(b0ea0cb7e29eb3748a1fcdcb65dc3488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/shovel_wood.prefab using Guid(b0ea0cb7e29eb3748a1fcdcb65dc3488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90239674a2d5ec6d2d52b0987a386a0') in 0.023951 seconds
+  Import took 0.025692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/pickaxe_gold.prefab
+  artifactKey: Guid(1703d42f8bfd5404ba4991b2fce49d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/pickaxe_gold.prefab using Guid(1703d42f8bfd5404ba4991b2fce49d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3342c3c54380fae851d46e85606781c') in 0.023571 seconds
+  Import took 0.026126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/canopy_block_1.prefab
+  artifactKey: Guid(80647bdd8960e954ab1eac6a70ea47ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/canopy_block_1.prefab using Guid(80647bdd8960e954ab1eac6a70ea47ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028020a51ea894f1a0e0652ac780c119') in 0.023073 seconds
+  Import took 0.024701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/pickaxe_metal.prefab
+  artifactKey: Guid(1e79aaba3053ea7419c5d48b0fd05e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/pickaxe_metal.prefab using Guid(1e79aaba3053ea7419c5d48b0fd05e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b793098491f042194f9a8f795200f8a') in 0.026937 seconds
+  Import took 0.028537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/block_ruby.prefab
+  artifactKey: Guid(4537eeb73055bea419baf52d16a1c1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/block_ruby.prefab using Guid(4537eeb73055bea419baf52d16a1c1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deef0cd99af6ca5f9430154ce20cafdf') in 0.024345 seconds
+  Import took 0.026015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/coal_ore_block_1.prefab
+  artifactKey: Guid(bdcf307ae15bffe4fa8fb3b1814e0704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/coal_ore_block_1.prefab using Guid(bdcf307ae15bffe4fa8fb3b1814e0704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1acfea054d18b4b57a9d5f6753680aa') in 0.028022 seconds
+  Import took 0.029874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/hammer_metal.prefab
+  artifactKey: Guid(ca056d48a54096e4c9acf074ef540988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/hammer_metal.prefab using Guid(ca056d48a54096e4c9acf074ef540988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad78bf293d83353b645b496954efcf4f') in 0.023264 seconds
+  Import took 0.024997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/ruby_ore_block.prefab
+  artifactKey: Guid(894eb6c5fcc576240873c4b358a2f6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/ruby_ore_block.prefab using Guid(894eb6c5fcc576240873c4b358a2f6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9256eee9b45a6861f869a3e6da7d7e04') in 0.028509 seconds
+  Import took 0.030145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/spear_short_diamond.prefab
+  artifactKey: Guid(064f6e8a5255265429c93d66258bce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/spear_short_diamond.prefab using Guid(064f6e8a5255265429c93d66258bce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529838fa684a0d42d5e5a692404c7986') in 0.071566 seconds
+  Import took 0.073251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/metal_block.prefab
+  artifactKey: Guid(d3382d2264763084b9617ae801660e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/metal_block.prefab using Guid(d3382d2264763084b9617ae801660e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae6f44ddb8aaccec81d418628e5e07f') in 0.286599 seconds
+  Import took 0.288560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/arrow_wood.prefab
+  artifactKey: Guid(225096255fc5870428840fb992897d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/arrow_wood.prefab using Guid(225096255fc5870428840fb992897d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea3597c0a10cff9009041f02e128619') in 0.026087 seconds
+  Import took 0.028058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/gold_bar_block.prefab
+  artifactKey: Guid(426f35ee67d3d5b44a2aae77587a25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/gold_bar_block.prefab using Guid(426f35ee67d3d5b44a2aae77587a25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d41fc1d875df357b868d4835779ee6') in 0.122858 seconds
+  Import took 0.124612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/shovel_stone.prefab
+  artifactKey: Guid(fc90c20c45cd08642bd6b40c8b008d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/shovel_stone.prefab using Guid(fc90c20c45cd08642bd6b40c8b008d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb0d5806d32ef876775fdf105a8be23') in 0.024024 seconds
+  Import took 0.025961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/diamond_pile.prefab
+  artifactKey: Guid(2801b6b81fc24ba4b827c351c7416d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/diamond_pile.prefab using Guid(2801b6b81fc24ba4b827c351c7416d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd190546594670cd3b3c9fcb5e5733292') in 0.029781 seconds
+  Import took 0.031537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.021540 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/spear_stone.prefab
+  artifactKey: Guid(79052070ce238ec429306f62221ca891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/spear_stone.prefab using Guid(79052070ce238ec429306f62221ca891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c0d97b11644f930c76f2c06013d882') in 0.027241 seconds
+  Import took 0.029071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/sword_stone.prefab
+  artifactKey: Guid(91e9d6b6c0394094186b59cb6d8b98fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/sword_stone.prefab using Guid(91e9d6b6c0394094186b59cb6d8b98fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee7bcbf74ea7470d6244552c1c5a642') in 0.024031 seconds
+  Import took 0.025809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/sword_wood.prefab
+  artifactKey: Guid(e383c5551a244564d94a9fac9d5c4ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/sword_wood.prefab using Guid(e383c5551a244564d94a9fac9d5c4ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5c8e10c682b7686d1862ee0a864cbc') in 0.024006 seconds
+  Import took 0.025679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/wood_stack_block.prefab
+  artifactKey: Guid(016d7f000eceb334f830e456158e16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/wood_stack_block.prefab using Guid(016d7f000eceb334f830e456158e16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc202d8017f040c98a64b55caf239b8a') in 0.026304 seconds
+  Import took 0.028075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/sword_gold.prefab
+  artifactKey: Guid(50491140965d58847aa0de94f9f9c436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/sword_gold.prefab using Guid(50491140965d58847aa0de94f9f9c436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e7c6d8794d77728e7fb1432eacafae') in 0.024217 seconds
+  Import took 0.025915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/treetrunk_block.prefab
+  artifactKey: Guid(30a5346c22d47e24382c540cc67057e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/treetrunk_block.prefab using Guid(30a5346c22d47e24382c540cc67057e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e65cc23662a40167aba64b7b47212d') in 0.031567 seconds
+  Import took 0.033255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/sword_gold.prefab
+  artifactKey: Guid(50491140965d58847aa0de94f9f9c436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/sword_gold.prefab using Guid(50491140965d58847aa0de94f9f9c436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e7c6d8794d77728e7fb1432eacafae') in 0.010006 seconds
+  Import took 0.011707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/sword_metal.prefab
+  artifactKey: Guid(52455a4e8baa734468938ba5971dadd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/sword_metal.prefab using Guid(52455a4e8baa734468938ba5971dadd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4d137709a1a24d4d972b8b493f49bb') in 0.028273 seconds
+  Import took 0.029962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/treetrunk_block_small.prefab
+  artifactKey: Guid(58094617cb424154380e1f6be8b40609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/treetrunk_block_small.prefab using Guid(58094617cb424154380e1f6be8b40609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9344f47e027008a5bea78942fb32e68c') in 0.025989 seconds
+  Import took 0.027633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/spear_wood.prefab
+  artifactKey: Guid(e2e6074ecb11d484085bcaf483c2222c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/spear_wood.prefab using Guid(e2e6074ecb11d484085bcaf483c2222c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35c6a15dad83d08dfa298985a43db79') in 0.024197 seconds
+  Import took 0.025867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/wood_stack_block_half.prefab
+  artifactKey: Guid(b89755d3cf860e942b45d854fdeaa8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/wood_stack_block_half.prefab using Guid(b89755d3cf860e942b45d854fdeaa8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359d090e336961da8da0ebda7fd1766b') in 0.026373 seconds
+  Import took 0.028030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Bitgem/Cube_World/Mining/Prefabs/sword_diamond.prefab
+  artifactKey: Guid(860378f479fa41f4d92a67c63ce6c214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mining/Prefabs/sword_diamond.prefab using Guid(860378f479fa41f4d92a67c63ce6c214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce931302bde71fd954a71e47088b41d2') in 0.024378 seconds
+  Import took 0.026123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.596796 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs
+  artifactKey: Guid(cdd45b117294d49be89e05e966e7b87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs using Guid(cdd45b117294d49be89e05e966e7b87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48581a79805e71722e97b388803beedb') in 0.002747 seconds
+  Import took 0.004435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076641 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/block_1.prefab
+  artifactKey: Guid(b0d400ea77965c04f877093788cd60bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/block_1.prefab using Guid(b0d400ea77965c04f877093788cd60bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c491dd1d8d44e9df17447050fdc5971b') in 0.029302 seconds
+  Import took 0.031239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/block_1_lightning.prefab
+  artifactKey: Guid(62eff793e3da8784f97d9bee2500c724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/block_1_lightning.prefab using Guid(62eff793e3da8784f97d9bee2500c724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd933ff3796611cc1a8083bfa7624fdbd') in 0.026699 seconds
+  Import took 0.028436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/block_health.prefab
+  artifactKey: Guid(a5f11ab856611d8409577e1b36ccf610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/block_health.prefab using Guid(a5f11ab856611d8409577e1b36ccf610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93b024015af8cad19980892bf5a920b') in 0.025525 seconds
+  Import took 0.027156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/block_lightning.prefab
+  artifactKey: Guid(fbdf97981db797846a398915a2b01a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/block_lightning.prefab using Guid(fbdf97981db797846a398915a2b01a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fa617dd23a66cf7669d53fb4ddf9d3') in 0.020296 seconds
+  Import took 0.021947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/powerup_coin_1.prefab
+  artifactKey: Guid(187a65e427b09c648af34d93f2a9eb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/powerup_coin_1.prefab using Guid(187a65e427b09c648af34d93f2a9eb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b30dbd4aea70f57b6c50c422938f768') in 0.025847 seconds
+  Import took 0.027531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/powerup_random_1.prefab
+  artifactKey: Guid(93e2199978370384b84ef16a635aa491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/powerup_random_1.prefab using Guid(93e2199978370384b84ef16a635aa491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f63c0a4a0bf77e5ff9a03399f38be3') in 0.028048 seconds
+  Import took 0.029772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/block_1_health.prefab
+  artifactKey: Guid(92d0e6560b4ba48438d3ef084106194d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/block_1_health.prefab using Guid(92d0e6560b4ba48438d3ef084106194d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c1e66aa8fd24d6b7a52819752ff557') in 0.022187 seconds
+  Import took 0.023834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/powerup_heart_1.prefab
+  artifactKey: Guid(29fa11f8314634e45a63c9359c9705b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/powerup_heart_1.prefab using Guid(29fa11f8314634e45a63c9359c9705b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ee1a0f37ee6d798a1bef32bbd91626') in 0.027262 seconds
+  Import took 0.028945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/powerup_arrow_1.prefab
+  artifactKey: Guid(38e0ffa2ab1fa2e44917e99b750170b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/powerup_arrow_1.prefab using Guid(38e0ffa2ab1fa2e44917e99b750170b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9ba679b868568197e595d17c7200b9') in 0.025392 seconds
+  Import took 0.027040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/powerup_health_1.prefab
+  artifactKey: Guid(1f771af0c00d28741b4076ea1c003c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/powerup_health_1.prefab using Guid(1f771af0c00d28741b4076ea1c003c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35e6b4bf91fa461aeb3f0f0f0da9aaa') in 0.030204 seconds
+  Import took 0.031831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/block_1_heart.prefab
+  artifactKey: Guid(271a33330d1bda246b0ac8d4b8fa116b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/block_1_heart.prefab using Guid(271a33330d1bda246b0ac8d4b8fa116b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e89cf17fced6c0198974c7ce6297a3e') in 0.039096 seconds
+  Import took 0.040811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/block_1_random.prefab
+  artifactKey: Guid(eeafc524949dd3844847150088fcfd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/block_1_random.prefab using Guid(eeafc524949dd3844847150088fcfd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dde9f786131e1220ddecb0f0d49d57e') in 0.036345 seconds
+  Import took 0.038102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/powerup_lightning_1.prefab
+  artifactKey: Guid(20fbbb25c2212674e90510a00197751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/powerup_lightning_1.prefab using Guid(20fbbb25c2212674e90510a00197751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7ec4aeb4ffcc474ae967662804faa9') in 0.026874 seconds
+  Import took 0.028563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/block_random.prefab
+  artifactKey: Guid(4f39b37ede9a931458338ddd6674d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/block_random.prefab using Guid(4f39b37ede9a931458338ddd6674d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8a8029a7aca459ecfbf03b16e42f38') in 0.022915 seconds
+  Import took 0.024591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/block_1_arrow.prefab
+  artifactKey: Guid(da3acea4398e5aa45b1f549b9d996740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/block_1_arrow.prefab using Guid(da3acea4398e5aa45b1f549b9d996740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b457515e11efd70d5ddfe80add9676') in 0.033342 seconds
+  Import took 0.035082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/block_1_star.prefab
+  artifactKey: Guid(b46ca0e4348f741409cf3b97b5d7897e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/block_1_star.prefab using Guid(b46ca0e4348f741409cf3b97b5d7897e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddddac90c55bc23fc5707e7aabd4adf') in 0.029379 seconds
+  Import took 0.031037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/block_arrow.prefab
+  artifactKey: Guid(bb3f510bbe6428146a0bd88d1b83428d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/block_arrow.prefab using Guid(bb3f510bbe6428146a0bd88d1b83428d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b214204cd6a07fb0136580732a920a9f') in 0.020115 seconds
+  Import took 0.021812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/block_2.prefab
+  artifactKey: Guid(e1042f98c7e4f2b468032b02e399b24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/block_2.prefab using Guid(e1042f98c7e4f2b468032b02e399b24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c28d8eb2aa2ed8579998e7b1e12bc0c') in 0.031708 seconds
+  Import took 0.033507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/block_heart.prefab
+  artifactKey: Guid(a9c386c6817ed0f499c31ac2254d98d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/block_heart.prefab using Guid(a9c386c6817ed0f499c31ac2254d98d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de181b044d9b77084d3118b69578c80') in 0.022161 seconds
+  Import took 0.023840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/block_star.prefab
+  artifactKey: Guid(c58693769b0e8824bbfe972351428b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/block_star.prefab using Guid(c58693769b0e8824bbfe972351428b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3deaaf56e9593c0b12afe4a8918b3a') in 0.021026 seconds
+  Import took 0.022678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Bitgem/Cube_World/Powerups/Prefabs/powerup_star_1.prefab
+  artifactKey: Guid(e308c2032566af64d9a827b846714915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Powerups/Prefabs/powerup_star_1.prefab using Guid(e308c2032566af64d9a827b846714915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd859b09a0cb38fd54f374c2cdb5c6144') in 0.028164 seconds
+  Import took 0.029832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.580164 seconds.
+  path: Assets/Bitgem/Cube_World/Rock/Prefabs
+  artifactKey: Guid(4d8b0a12973614588baf7323dbf63ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Rock/Prefabs using Guid(4d8b0a12973614588baf7323dbf63ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ca99447c47d32ed482e3bb135fc599') in 0.004170 seconds
+  Import took 0.006119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.160167 seconds.
+  path: Assets/Bitgem/Cube_World/Rock/Prefabs/rock_cube_1.prefab
+  artifactKey: Guid(f8f773d9112577a4c98178cc8287a3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Rock/Prefabs/rock_cube_1.prefab using Guid(f8f773d9112577a4c98178cc8287a3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78297aaf6eacc8ee078a147cfc52249a') in 0.034101 seconds
+  Import took 0.035916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Bitgem/Cube_World/Rock/Prefabs/rock_cube_4.prefab
+  artifactKey: Guid(32fd45d637212cc4e9facd8cc7d8a4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Rock/Prefabs/rock_cube_4.prefab using Guid(32fd45d637212cc4e9facd8cc7d8a4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c5a3057f999c95986155d65fde1cf2') in 0.027207 seconds
+  Import took 0.028869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Bitgem/Cube_World/Rock/Prefabs/rock_cube_3.prefab
+  artifactKey: Guid(9aa8f1b1cb27f8e44b35077eeedda437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Rock/Prefabs/rock_cube_3.prefab using Guid(9aa8f1b1cb27f8e44b35077eeedda437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44129b87a1a01f9d3213d8d69a8f5aff') in 0.027096 seconds
+  Import took 0.028750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Bitgem/Cube_World/Rock/Prefabs/rock_cube_2.prefab
+  artifactKey: Guid(cad472d9e2c02c24d8593847ad3badd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Rock/Prefabs/rock_cube_2.prefab using Guid(cad472d9e2c02c24d8593847ad3badd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d8559a438fb19e8686d338433c911a') in 0.026173 seconds
+  Import took 0.027832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 452.422617 seconds.
+  path: Assets/Bitgem/Cube_World/Crate/Prefabs
+  artifactKey: Guid(6ebed11557baa48de882b8c1537cac5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Crate/Prefabs using Guid(6ebed11557baa48de882b8c1537cac5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38a4f2ccf61e9a67fe1375a8424709f') in 0.002842 seconds
+  Import took 0.004820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081083 seconds.
+  path: Assets/Bitgem/Cube_World/Crate/Prefabs/wooden_box_1.prefab
+  artifactKey: Guid(045a658b5fcaf1944a040e1cd895f677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Crate/Prefabs/wooden_box_1.prefab using Guid(045a658b5fcaf1944a040e1cd895f677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb9e4826c1ffefbe69e75f35cc8796e') in 0.033612 seconds
+  Import took 0.035425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Bitgem/Cube_World/Crate/Prefabs/wooden_box_2.prefab
+  artifactKey: Guid(3e6387c6c023ff74f94307c4e91651d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Crate/Prefabs/wooden_box_2.prefab using Guid(3e6387c6c023ff74f94307c4e91651d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8f39ef2aab22fe9656d6abd877f34d') in 0.026940 seconds
+  Import took 0.028593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Bitgem/Cube_World/Crate/Prefabs/wooden_box_3.prefab
+  artifactKey: Guid(bef6ea17b1480154f8cae9bfb4109b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Crate/Prefabs/wooden_box_3.prefab using Guid(bef6ea17b1480154f8cae9bfb4109b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2e9c95c931aa3275129ac063c0b945') in 0.025244 seconds
+  Import took 0.026806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Bitgem/Cube_World/Crate/Prefabs/wooden_box_4.prefab
+  artifactKey: Guid(9b5734242bcf11b4e829582b987934e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Crate/Prefabs/wooden_box_4.prefab using Guid(9b5734242bcf11b4e829582b987934e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7843323030ed9f5bec29d13f7da28fd') in 0.024748 seconds
+  Import took 0.026330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.724878 seconds.
+  path: Assets/Bitgem/Cube_World/Lava/Prefabs
+  artifactKey: Guid(e68b453a2669c4d3692284da972d56e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Lava/Prefabs using Guid(e68b453a2669c4d3692284da972d56e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60d0b9202cbfa87948e82fcc878966e') in 0.003435 seconds
+  Import took 0.005549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071440 seconds.
+  path: Assets/Bitgem/Cube_World/Lava/Prefabs/bubble_lava.prefab
+  artifactKey: Guid(0f201bcc2601c0749a38c7046136137b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Lava/Prefabs/bubble_lava.prefab using Guid(0f201bcc2601c0749a38c7046136137b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07fabdd760c90d4a054d9f7a5172e4a') in 0.066606 seconds
+  Import took 0.068431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Bitgem/Cube_World/Lava/Prefabs/lava_cubes_2.prefab
+  artifactKey: Guid(6883323c03b6ba848b47a1a7d7fcefe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Lava/Prefabs/lava_cubes_2.prefab using Guid(6883323c03b6ba848b47a1a7d7fcefe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0cdda2ba2a42674e0161efa6c9dca4') in 0.030498 seconds
+  Import took 0.032130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Bitgem/Cube_World/Lava/Prefabs/lava_cubes_5.prefab
+  artifactKey: Guid(d0b35f4d2aba62a4ab7d123cb5751d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Lava/Prefabs/lava_cubes_5.prefab using Guid(d0b35f4d2aba62a4ab7d123cb5751d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b53aa8a68ce082883ba35cc783bd4c3') in 0.031910 seconds
+  Import took 0.033539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Bitgem/Cube_World/Lava/Prefabs/lava_cubes_4.prefab
+  artifactKey: Guid(a7f5f2f198a28104384df4df105e5347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Lava/Prefabs/lava_cubes_4.prefab using Guid(a7f5f2f198a28104384df4df105e5347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2459b7f0da5eb49bc2d56686a99514cc') in 0.032355 seconds
+  Import took 0.034047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Bitgem/Cube_World/Lava/Prefabs/lava_cubes_1.prefab
+  artifactKey: Guid(282340fd049b4644da5bc6fce170eb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Lava/Prefabs/lava_cubes_1.prefab using Guid(282340fd049b4644da5bc6fce170eb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421a66bd2e280bc8cfc780bb7533e095') in 0.026659 seconds
+  Import took 0.028449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Bitgem/Cube_World/Lava/Prefabs/lava_cubes_3.prefab
+  artifactKey: Guid(b46cdfd9e5d379f4eab9e6714883dfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Lava/Prefabs/lava_cubes_3.prefab using Guid(b46cdfd9e5d379f4eab9e6714883dfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f192bbf398d265ee54ef5c74b7cc181e') in 0.030590 seconds
+  Import took 0.032242 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000895 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.662 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.2 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1554.
+Total: 1.543900 ms (FindLiveObjects: 0.154200 ms CreateObjectMapping: 0.045000 ms MarkObjects: 1.304400 ms  DeleteObjects: 0.039400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.692 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.3 MB.
+System memory in use after: 62.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1556.
+Total: 1.398100 ms (FindLiveObjects: 0.105300 ms CreateObjectMapping: 0.027500 ms MarkObjects: 1.229700 ms  DeleteObjects: 0.034900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1116.837473 seconds.
+  path: Assets/Bitgem/Cube_World/Brick/Prefabs
+  artifactKey: Guid(bb3f7d8cf90d84e5cbcb08e60598f030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Brick/Prefabs using Guid(bb3f7d8cf90d84e5cbcb08e60598f030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51901b79ede9db88a149a8b1fd220b00') in 0.008985 seconds
+  Import took 0.011055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Bitgem/Cube_World/Brick/Prefabs
+  artifactKey: Guid(bb3f7d8cf90d84e5cbcb08e60598f030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Brick/Prefabs using Guid(bb3f7d8cf90d84e5cbcb08e60598f030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51901b79ede9db88a149a8b1fd220b00') in 0.002566 seconds
+  Import took 0.004180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065626 seconds.
+  path: Assets/Bitgem/Cube_World/Brick/Prefabs/brick_black_1.prefab
+  artifactKey: Guid(932b3807536acd049a86de16b7d8f278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Brick/Prefabs/brick_black_1.prefab using Guid(932b3807536acd049a86de16b7d8f278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f42abf7e5f2e3f3636961e09dc71564') in 0.082472 seconds
+  Import took 0.084308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Bitgem/Cube_World/Brick/Prefabs/brick_brown_2.prefab
+  artifactKey: Guid(5604ef4e905701c4e84e438b637c339b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Brick/Prefabs/brick_brown_2.prefab using Guid(5604ef4e905701c4e84e438b637c339b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad965746ca72835c9d54cbee1dd9010e') in 0.029787 seconds
+  Import took 0.031480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Bitgem/Cube_World/Brick/Prefabs/brick_black_4.prefab
+  artifactKey: Guid(ade5fa862ad0c1d44b3756f0ad61a27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Brick/Prefabs/brick_black_4.prefab using Guid(ade5fa862ad0c1d44b3756f0ad61a27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192a002d82edcaa4c04e66c1036cef47') in 0.031548 seconds
+  Import took 0.034694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Bitgem/Cube_World/Brick/Prefabs/brick_brown_1.prefab
+  artifactKey: Guid(d49773f0a4f110e4c82b6806208a0723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Brick/Prefabs/brick_brown_1.prefab using Guid(d49773f0a4f110e4c82b6806208a0723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9567d934533449173f1ac506506900c') in 0.030693 seconds
+  Import took 0.032373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Bitgem/Cube_World/Brick/Prefabs/brick_brown_4.prefab
+  artifactKey: Guid(d3f0fd641e48029479051f84e7668e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Brick/Prefabs/brick_brown_4.prefab using Guid(d3f0fd641e48029479051f84e7668e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6912db0d838441bf2c386813a05459d') in 0.033464 seconds
+  Import took 0.035487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Bitgem/Cube_World/Brick/Prefabs/brick_black_2.prefab
+  artifactKey: Guid(a8175147f35e3d54787d85ab5809c243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Brick/Prefabs/brick_black_2.prefab using Guid(a8175147f35e3d54787d85ab5809c243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1294175afa989aea32dbdb12f4341eb') in 0.027135 seconds
+  Import took 0.028984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Bitgem/Cube_World/Brick/Prefabs/brick_brown_3.prefab
+  artifactKey: Guid(3cc972420c1e45b4b85459192de9b544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Brick/Prefabs/brick_brown_3.prefab using Guid(3cc972420c1e45b4b85459192de9b544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a061f47806a372f0a511cd6a6f0819a2') in 0.034247 seconds
+  Import took 0.036078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Bitgem/Cube_World/Brick/Prefabs/brick_black_3.prefab
+  artifactKey: Guid(c01b95ac7080f384d94741137edf118f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Brick/Prefabs/brick_black_3.prefab using Guid(c01b95ac7080f384d94741137edf118f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e8fb1b6ad14116120786d29147d1df') in 0.026195 seconds
+  Import took 0.028137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 268.264931 seconds.
+  path: Assets/Bitgem/Cube_World/Rock/Prefabs/rock_cube_3.prefab
+  artifactKey: Guid(9aa8f1b1cb27f8e44b35077eeedda437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Rock/Prefabs/rock_cube_3.prefab using Guid(9aa8f1b1cb27f8e44b35077eeedda437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cece2d2f3a92c3cbbf0012e8a9d0768') in 0.018129 seconds
+  Import took 0.020048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 369.699006 seconds.
+  path: Assets/Bitgem/Cube_World/Metal_Spike/Prefabs
+  artifactKey: Guid(85907cdd89e3b45e98aba896b9f8c87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Metal_Spike/Prefabs using Guid(85907cdd89e3b45e98aba896b9f8c87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6dcd19b4ab3af278ed978dc09cfe860') in 0.003564 seconds
+  Import took 0.005527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061619 seconds.
+  path: Assets/Bitgem/Cube_World/Metal_Spike/Prefabs/spike_cube_1.prefab
+  artifactKey: Guid(12075db0e7dd31f4489beea8fce9cf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Metal_Spike/Prefabs/spike_cube_1.prefab using Guid(12075db0e7dd31f4489beea8fce9cf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1715f8aaf0a2ede182660f5fdcc00e9') in 0.036217 seconds
+  Import took 0.038297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Bitgem/Cube_World/Metal_Spike/Prefabs/spike_deco_3.prefab
+  artifactKey: Guid(ce1f67244e7cca944bc0cb5775806424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Metal_Spike/Prefabs/spike_deco_3.prefab using Guid(ce1f67244e7cca944bc0cb5775806424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bc43f23cabe8728e92ca4eaec053bf') in 0.034845 seconds
+  Import took 0.036554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Bitgem/Cube_World/Metal_Spike/Prefabs/spike_deco_1.prefab
+  artifactKey: Guid(24a8a37439615554ca23d96e183816a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Metal_Spike/Prefabs/spike_deco_1.prefab using Guid(24a8a37439615554ca23d96e183816a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac36303329661f6cdadc3c5d57d7976') in 0.028552 seconds
+  Import took 0.030244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Bitgem/Cube_World/Metal_Spike/Prefabs/spike_cube_2.prefab
+  artifactKey: Guid(3f4b0042dba510f419ff9fab6f39905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Metal_Spike/Prefabs/spike_cube_2.prefab using Guid(3f4b0042dba510f419ff9fab6f39905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa13e175b8f0eda2d26bb785061a31f1') in 0.033781 seconds
+  Import took 0.035409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Bitgem/Cube_World/Metal_Spike/Prefabs/spike_deco_2.prefab
+  artifactKey: Guid(9e41c755ce39e9147990174ac9c9c1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Metal_Spike/Prefabs/spike_deco_2.prefab using Guid(9e41c755ce39e9147990174ac9c9c1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b96f177ffed7909838d6db9f5ad2e3') in 0.030730 seconds
+  Import took 0.032356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Bitgem/Cube_World/Metal_Spike/Prefabs/spike_cube_animated.prefab
+  artifactKey: Guid(2dc48b9e838e9d946bb9a74e24539af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Metal_Spike/Prefabs/spike_cube_animated.prefab using Guid(2dc48b9e838e9d946bb9a74e24539af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0884161445b943c02d03fb3d79b0b61f') in 0.036455 seconds
+  Import took 0.040592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.630934 seconds.
+  path: Assets/Bitgem/Cube_World/Metal/Prefabs
+  artifactKey: Guid(50893e9a0a20c49adabdcf9507007fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Metal/Prefabs using Guid(50893e9a0a20c49adabdcf9507007fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86db79a7ff2359d40da69cf5d66aafb4') in 0.003592 seconds
+  Import took 0.005778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058715 seconds.
+  path: Assets/Bitgem/Cube_World/Metal/Prefabs/metal_cube_1.prefab
+  artifactKey: Guid(4818eed138e0f40429c58bb5be04dee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Metal/Prefabs/metal_cube_1.prefab using Guid(4818eed138e0f40429c58bb5be04dee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72aae7a44442a1b2bd64489dcfa90c5f') in 0.027185 seconds
+  Import took 0.030112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Bitgem/Cube_World/Metal/Prefabs/metal_cube_2.prefab
+  artifactKey: Guid(f2e25c07fdeaff74784c6b18e99bfd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Metal/Prefabs/metal_cube_2.prefab using Guid(f2e25c07fdeaff74784c6b18e99bfd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0cf00ff8151f1f980c29d8ed936536') in 0.024907 seconds
+  Import took 0.026561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Bitgem/Cube_World/Metal/Prefabs/metal_cube_4.prefab
+  artifactKey: Guid(4829fffe18c338145a3846acc037b1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Metal/Prefabs/metal_cube_4.prefab using Guid(4829fffe18c338145a3846acc037b1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3aa4119ff91fcc0986d4e52dc18b46e') in 0.023596 seconds
+  Import took 0.025199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Bitgem/Cube_World/Metal/Prefabs/metal_cube_3.prefab
+  artifactKey: Guid(192e9533221649247b62390dbb255bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Metal/Prefabs/metal_cube_3.prefab using Guid(192e9533221649247b62390dbb255bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf37c3fe7ec887561e013ed4ecf2ca0') in 0.037657 seconds
+  Import took 0.041138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2258.779446 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs
+  artifactKey: Guid(f6252efe65e4a4ad490b21e27d236db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs using Guid(f6252efe65e4a4ad490b21e27d236db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c741d478eb9b7db388a2883fbe52497') in 0.006886 seconds
+  Import took 0.010754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs
+  artifactKey: Guid(f6252efe65e4a4ad490b21e27d236db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs using Guid(f6252efe65e4a4ad490b21e27d236db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c741d478eb9b7db388a2883fbe52497') in 0.002566 seconds
+  Import took 0.004110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059828 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/cover_wood.prefab
+  artifactKey: Guid(d2430f994d02d14409d28a3d0c2a1fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/cover_wood.prefab using Guid(d2430f994d02d14409d28a3d0c2a1fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76ffc76c069995a0c13b95191d59842') in 0.031908 seconds
+  Import took 0.033691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/minecart.prefab
+  artifactKey: Guid(ca322494927659544852b438b93b2c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/minecart.prefab using Guid(ca322494927659544852b438b93b2c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0632d38658a35b3040d43817d70c2235') in 0.027646 seconds
+  Import took 0.029421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_ruby.prefab
+  artifactKey: Guid(d7fa3436d83204b4eb6b434b68a3eaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_ruby.prefab using Guid(d7fa3436d83204b4eb6b434b68a3eaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a21bf2a29680b3681d31e153d718750') in 0.024881 seconds
+  Import took 0.026486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_scaffolding_half.prefab
+  artifactKey: Guid(159c940ec737b3d47b9e71aa8a3acc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_scaffolding_half.prefab using Guid(159c940ec737b3d47b9e71aa8a3acc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a51914f76e8806e88453b846f5985c0') in 0.023494 seconds
+  Import took 0.025291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_up_bottom.prefab
+  artifactKey: Guid(76fcbc850e078334289eee374b16cf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_up_bottom.prefab using Guid(76fcbc850e078334289eee374b16cf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f33cc9c59eb48a2fd8e857f1b9a2b9') in 0.027495 seconds
+  Import took 0.029329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_up_tile.prefab
+  artifactKey: Guid(f1fd3588277581b438d6a54f2bcc4eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_up_tile.prefab using Guid(f1fd3588277581b438d6a54f2bcc4eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bf3366f80635b75a4e9c674e91a748') in 0.022858 seconds
+  Import took 0.024481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/scaffolding_cube_half.prefab
+  artifactKey: Guid(f16f3637ce05bcd4a8d4e4349c189553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/scaffolding_cube_half.prefab using Guid(f16f3637ce05bcd4a8d4e4349c189553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601611b4c8cb455ca13b09d5438eeae6') in 0.027716 seconds
+  Import took 0.031371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_up_bottom_half.prefab
+  artifactKey: Guid(71b166a7cb2d35f4089615ba2e3ac509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_up_bottom_half.prefab using Guid(71b166a7cb2d35f4089615ba2e3ac509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17e49b4b96e5a06efb2ec810461de95') in 0.025205 seconds
+  Import took 0.026881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_upS_half.prefab
+  artifactKey: Guid(8250a6d5f6a4b174285ddb6fc2807fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_upS_half.prefab using Guid(8250a6d5f6a4b174285ddb6fc2807fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6abb16ba226fabd61a7f6b1a14adc8c') in 0.029922 seconds
+  Import took 0.031669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_upS.prefab
+  artifactKey: Guid(d42888c143611a4408ae87fbe31f063c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_upS.prefab using Guid(d42888c143611a4408ae87fbe31f063c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c757d44c51d7e2c17e2613fd0fc95b') in 0.025895 seconds
+  Import took 0.027580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_straight.prefab
+  artifactKey: Guid(04bf022595168e64eb1a65030e7d2556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_straight.prefab using Guid(04bf022595168e64eb1a65030e7d2556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c444b57f0a67f2b832a183d29cffe5d') in 0.026268 seconds
+  Import took 0.027966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_up_top_half.prefab
+  artifactKey: Guid(98050c286dbe12f4aad0b550ac31165a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_up_top_half.prefab using Guid(98050c286dbe12f4aad0b550ac31165a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fd3f57531dd440e3768c82a2101b4d') in 0.032548 seconds
+  Import took 0.034456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_pile_ruby.prefab
+  artifactKey: Guid(befc40a22cfe85f4c9857e4d2fac1431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_pile_ruby.prefab using Guid(befc40a22cfe85f4c9857e4d2fac1431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570a21afc431798ba9c6cf56dfe40b82') in 0.027672 seconds
+  Import took 0.030916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_pile_coal.prefab
+  artifactKey: Guid(0413056bf0726f943a4b33b62777620c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_pile_coal.prefab using Guid(0413056bf0726f943a4b33b62777620c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d8e8a4b2a800e069786fc3edf59c03') in 0.027450 seconds
+  Import took 0.029504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_gold.prefab
+  artifactKey: Guid(f0fbbd8b8510e8148b5519e17aa154d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_gold.prefab using Guid(f0fbbd8b8510e8148b5519e17aa154d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab2718b0d49d186ab9fd898cb7bb9eb') in 0.025330 seconds
+  Import took 0.028015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_scaffolding_half_turn.prefab
+  artifactKey: Guid(14feda0d883278f4ba2b67ba677d3b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_scaffolding_half_turn.prefab using Guid(14feda0d883278f4ba2b67ba677d3b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f91d1243d711b4d6e540e45e61f372') in 0.025573 seconds
+  Import took 0.027354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_scaffolding_turn.prefab
+  artifactKey: Guid(350ffc006a7ed1640a157e6efb637c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_scaffolding_turn.prefab using Guid(350ffc006a7ed1640a157e6efb637c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651fcae48193e19bb77123ca853b9adf') in 0.026551 seconds
+  Import took 0.029888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_turn.prefab
+  artifactKey: Guid(5d756df882d93234aa4d89e3fecd7d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_turn.prefab using Guid(5d756df882d93234aa4d89e3fecd7d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d4267ecd57cebd159cd7ea1d657d68') in 0.032473 seconds
+  Import took 0.035424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/switch_rail.prefab
+  artifactKey: Guid(ccb1ab5cedc1c2842bb610b59f57a29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/switch_rail.prefab using Guid(ccb1ab5cedc1c2842bb610b59f57a29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864aa8a6415386d488f5e5096adda4e5') in 0.026608 seconds
+  Import took 0.028577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_tile_up_half.prefab
+  artifactKey: Guid(7f957e40c0c5f224d914e623b75f897b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_tile_up_half.prefab using Guid(7f957e40c0c5f224d914e623b75f897b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec8a26ad8afffffc0ad10339f7f3b1a') in 0.025907 seconds
+  Import took 0.028649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_silver.prefab
+  artifactKey: Guid(a992c583663380545809e831ac581cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_silver.prefab using Guid(a992c583663380545809e831ac581cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91a4d2603b97003b2d32f03e43940ae') in 0.025302 seconds
+  Import took 0.027865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_t.prefab
+  artifactKey: Guid(2bcba24d08bbb504984bd342116f9589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_t.prefab using Guid(2bcba24d08bbb504984bd342116f9589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae19581e75da90ef52fafea6ba21a959') in 0.030169 seconds
+  Import took 0.031959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_pile_silver.prefab
+  artifactKey: Guid(7cc62045fd20cc24b89c0655a4ee77f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_pile_silver.prefab using Guid(7cc62045fd20cc24b89c0655a4ee77f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86188f1919c9f33233678b9b33fa0bea') in 0.025926 seconds
+  Import took 0.027630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_coal.prefab
+  artifactKey: Guid(1490be89b338ab84db654315ac036eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_coal.prefab using Guid(1490be89b338ab84db654315ac036eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac31daaa177698d614ef81f4ab75fe9') in 0.032189 seconds
+  Import took 0.035045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_cross.prefab
+  artifactKey: Guid(226238c9a6891bb4fbf8c4a3a6a006da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_cross.prefab using Guid(226238c9a6891bb4fbf8c4a3a6a006da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09a5075b2e9e412e6b22f2c1d2f1fb3') in 0.024786 seconds
+  Import took 0.027433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_up_top.prefab
+  artifactKey: Guid(b0241345573be9246b6f5ade29c05089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_up_top.prefab using Guid(b0241345573be9246b6f5ade29c05089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5794bc916d97990d4b8cc1ad552fa49') in 0.026397 seconds
+  Import took 0.029536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_pile_gold.prefab
+  artifactKey: Guid(69750458041118e458f4bdc935658a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/ore_pile_gold.prefab using Guid(69750458041118e458f4bdc935658a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70af3def55d2794714c3e2af1a0136b0') in 0.036599 seconds
+  Import took 0.038569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_track_end.prefab
+  artifactKey: Guid(5102e252149fd45488f67a23d15d3a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_track_end.prefab using Guid(5102e252149fd45488f67a23d15d3a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e441e6d5fd1b81f7296f9173cc7992a5') in 0.029402 seconds
+  Import took 0.032560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/scaffolding_cube.prefab
+  artifactKey: Guid(0ca929a25107851429ab7d8117dbe7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/scaffolding_cube.prefab using Guid(0ca929a25107851429ab7d8117dbe7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5eba17cc06887eeee51c4f8be88c5e') in 0.024767 seconds
+  Import took 0.026626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_scaffolding.prefab
+  artifactKey: Guid(6b28093ad41f372488e48edd95cc2274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Mine_Rail/Prefabs/rail_tracks_scaffolding.prefab using Guid(6b28093ad41f372488e48edd95cc2274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cb1bd8794380be739fd7026a94ccf6') in 0.026572 seconds
+  Import took 0.028555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 237.491645 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs
+  artifactKey: Guid(9c8c3f59ae62d4af290905fe6cfafd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs using Guid(9c8c3f59ae62d4af290905fe6cfafd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc62c4a3118b7f4fc7d8d9a5a725441c') in 0.003659 seconds
+  Import took 0.006197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070616 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_metal_double.prefab
+  artifactKey: Guid(d9a9544124624d842b85003b697bd700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_metal_double.prefab using Guid(d9a9544124624d842b85003b697bd700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ffbb8d76509af7e1031522c923f672') in 0.034672 seconds
+  Import took 0.036535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_metal_rounded_single.prefab
+  artifactKey: Guid(7ad2035044567b744bef3077633256bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_metal_rounded_single.prefab using Guid(7ad2035044567b744bef3077633256bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad665e790b47b901b220c40c87145c3a') in 0.024615 seconds
+  Import took 0.026583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_metal_rounded_double.prefab
+  artifactKey: Guid(c8aaa466181bee14b9302d72529e54e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_metal_rounded_double.prefab using Guid(c8aaa466181bee14b9302d72529e54e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd700c40c2b2faea1329c168b8cffd8') in 0.024436 seconds
+  Import took 0.026103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_handles.prefab
+  artifactKey: Guid(ae70afeb982cc5241a0778f106d5cb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_handles.prefab using Guid(ae70afeb982cc5241a0778f106d5cb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f7ac7e2d5aa7eed906664e4e7250cb') in 0.024368 seconds
+  Import took 0.026047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_hinges_close.prefab
+  artifactKey: Guid(0c0a810d63b0ffb4d9e33dbed849f9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_hinges_close.prefab using Guid(0c0a810d63b0ffb4d9e33dbed849f9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f7322ce207038fd273331af665f6b4') in 0.023543 seconds
+  Import took 0.026110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_stone_left.prefab
+  artifactKey: Guid(d888d23c87fa0bb4886291666cc70d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_stone_left.prefab using Guid(d888d23c87fa0bb4886291666cc70d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617f9b4a8036cb1307f797c23f0e34a2') in 0.037396 seconds
+  Import took 0.040235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_stone_right.prefab
+  artifactKey: Guid(90f320bd0345d714793e3a2e10ac0b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_stone_right.prefab using Guid(90f320bd0345d714793e3a2e10ac0b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe3b123db895f55e2920c8aa2f3b36a') in 0.029958 seconds
+  Import took 0.031723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood_rounded.prefab
+  artifactKey: Guid(c2295abf913a9b84b93d044e77b3384d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood_rounded.prefab using Guid(c2295abf913a9b84b93d044e77b3384d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa38bb83cc44a6274dcb4cbb8fd869b9') in 0.030390 seconds
+  Import took 0.032179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood_left.prefab
+  artifactKey: Guid(1473b2b526327944fafd868539eef302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood_left.prefab using Guid(1473b2b526327944fafd868539eef302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b27162dfe2c85cc8a5199ac701ef308') in 0.031641 seconds
+  Import took 0.033787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_stone_rounded_left.prefab
+  artifactKey: Guid(1a077c9127355854bba9a423ab2bda17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_stone_rounded_left.prefab using Guid(1a077c9127355854bba9a423ab2bda17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae26c8768006da9c5b91dd9672c563a0') in 0.030031 seconds
+  Import took 0.032322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_stone_rounded_right.prefab
+  artifactKey: Guid(d0aa0980a8bdc1d4b941e1f355aa75b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_stone_rounded_right.prefab using Guid(d0aa0980a8bdc1d4b941e1f355aa75b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2951e6d1f004462a5e0d7a4c78428bb0') in 0.032567 seconds
+  Import took 0.034605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/keyhole.prefab
+  artifactKey: Guid(63a04f0aab412674c88eb51c5ff68001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/keyhole.prefab using Guid(63a04f0aab412674c88eb51c5ff68001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adf4547655e12f7a682764f2fdf2b88') in 0.025836 seconds
+  Import took 0.027605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood_rounded_top.prefab
+  artifactKey: Guid(3c54ff4d1da3ff447b7f6a4541b61971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood_rounded_top.prefab using Guid(3c54ff4d1da3ff447b7f6a4541b61971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30858ba80c848842c159febebcb63186') in 0.023308 seconds
+  Import took 0.025032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/keyhole_gold.prefab
+  artifactKey: Guid(e62a8c1ae853aed42b68d9d1fcc76747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/keyhole_gold.prefab using Guid(e62a8c1ae853aed42b68d9d1fcc76747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1778cfe101f4a2af34c2f6b35aba9eb') in 0.026334 seconds
+  Import took 0.028900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_metal_rounded.prefab
+  artifactKey: Guid(8b61ead628b748646818c7247a4fc1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_metal_rounded.prefab using Guid(8b61ead628b748646818c7247a4fc1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a1243b42bf874519bd521cd461a84f') in 0.033177 seconds
+  Import took 0.035047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_metal_rounded_left.prefab
+  artifactKey: Guid(3f574f683881f904d9d5fabf46168aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_metal_rounded_left.prefab using Guid(3f574f683881f904d9d5fabf46168aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c445a7296cd197b0505bce4066d30a9') in 0.029222 seconds
+  Import took 0.030950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_stone_rounded.prefab
+  artifactKey: Guid(cb104c4d4c66b1945be9e9a1275900b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_stone_rounded.prefab using Guid(cb104c4d4c66b1945be9e9a1275900b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2e62955106eb1855cda73dc832bda3') in 0.028935 seconds
+  Import took 0.031042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/key_gold.prefab
+  artifactKey: Guid(c78078fef71184bdf97ad340ab9a0956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/key_gold.prefab using Guid(c78078fef71184bdf97ad340ab9a0956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a49e4955f6310df5cd41adfd246fe35') in 0.023311 seconds
+  Import took 0.025116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood_rounded_left.prefab
+  artifactKey: Guid(92a1493dc54a2684dabedc4997e78ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood_rounded_left.prefab using Guid(92a1493dc54a2684dabedc4997e78ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67337c99093008a5d67e7657ac100e47') in 0.030770 seconds
+  Import took 0.032614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood_rounded_right.prefab
+  artifactKey: Guid(d27e0d1702a51ad48977a140cd3f990e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood_rounded_right.prefab using Guid(d27e0d1702a51ad48977a140cd3f990e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62476e8e2bf8c8dc402c89d5dfcfbcac') in 0.029135 seconds
+  Import took 0.030859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_metal_right.prefab
+  artifactKey: Guid(c98754c50f1b3ed4bb467d5f4b1c2704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_metal_right.prefab using Guid(c98754c50f1b3ed4bb467d5f4b1c2704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c113fb42bee83f08cb0f2cebe5fce61c') in 0.028935 seconds
+  Import took 0.030668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_wood_single.prefab
+  artifactKey: Guid(a7f0b5b0d77c1c1408c813b1aa62030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_wood_single.prefab using Guid(a7f0b5b0d77c1c1408c813b1aa62030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978f6788fb3ed4d67a8f0dfc449d91f6') in 0.023934 seconds
+  Import took 0.026287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_metal_rounded_top.prefab
+  artifactKey: Guid(c52696a938e2258409210b839cb359d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_metal_rounded_top.prefab using Guid(c52696a938e2258409210b839cb359d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdab5b888c8c975eea71f8cd6521dc8') in 0.023215 seconds
+  Import took 0.025898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_wood_double.prefab
+  artifactKey: Guid(bd7b25c85ff31fc4dae483c7113cbf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_wood_double.prefab using Guid(bd7b25c85ff31fc4dae483c7113cbf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f3bc81103e98cb21ee40fa268e4cbe') in 0.027412 seconds
+  Import took 0.029183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_wood_rounded_single.prefab
+  artifactKey: Guid(7b3330922084ec5438b11f83d607dee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_wood_rounded_single.prefab using Guid(7b3330922084ec5438b11f83d607dee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7363c1ef498e700234001f6b4ec7f246') in 0.024379 seconds
+  Import took 0.026311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_hinges.prefab
+  artifactKey: Guid(cd24db3a3bf3bad4a923c2ddb299eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_hinges.prefab using Guid(cd24db3a3bf3bad4a923c2ddb299eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cc0dbd7bb817a8751f6e235bc86a96') in 0.025333 seconds
+  Import took 0.027158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_metal_single.prefab
+  artifactKey: Guid(fc6831b437704a941b4067745415c143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_metal_single.prefab using Guid(fc6831b437704a941b4067745415c143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d7146e9b39047e376f74718e98d78f') in 0.026521 seconds
+  Import took 0.028325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_hatch_wood.prefab
+  artifactKey: Guid(0f013705cf7a8244497a0ac085334426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_hatch_wood.prefab using Guid(0f013705cf7a8244497a0ac085334426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7bccbe6d9c5dbe2b945eb2244f305c0') in 0.024256 seconds
+  Import took 0.026190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_stone_rounded_double.prefab
+  artifactKey: Guid(58927555101f49e47959f1d6479d480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_stone_rounded_double.prefab using Guid(58927555101f49e47959f1d6479d480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65cb9eb0d05a2d0275eb25125d6e868') in 0.029034 seconds
+  Import took 0.030967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_stone_rounded_double_top.prefab
+  artifactKey: Guid(cf9b25bc9ccf615489875bc89f7b96db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_stone_rounded_double_top.prefab using Guid(cf9b25bc9ccf615489875bc89f7b96db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee66a92432f33ff8f45299ad9311e237') in 0.022852 seconds
+  Import took 0.024598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_metal_left.prefab
+  artifactKey: Guid(c37a1c48c0b10ed4cb54c2949e174d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_metal_left.prefab using Guid(c37a1c48c0b10ed4cb54c2949e174d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f53f5ef43079ffb4c70dce8dc6ce8ea') in 0.031850 seconds
+  Import took 0.033719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood_right.prefab
+  artifactKey: Guid(c264643f201c5024994302fef009afd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood_right.prefab using Guid(c264643f201c5024994302fef009afd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e70c5f4580534efb7647e6b0eb5c02') in 0.032280 seconds
+  Import took 0.035646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood_rounded_double_top.prefab
+  artifactKey: Guid(e039aa37183c0094ca0470de2d917388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood_rounded_double_top.prefab using Guid(e039aa37183c0094ca0470de2d917388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a767e2b099a4a03bf9ff6a14251ba95') in 0.023213 seconds
+  Import took 0.025226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_wood_rounded_double.prefab
+  artifactKey: Guid(2b76076890ab5d041be3f6a5be9c96d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_wood_rounded_double.prefab using Guid(2b76076890ab5d041be3f6a5be9c96d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666b47ab2d6ed73a49d2be8df3673131') in 0.026986 seconds
+  Import took 0.030303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_stone_double.prefab
+  artifactKey: Guid(f1441591d9e079b4d8f6ef49f2513af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_stone_double.prefab using Guid(f1441591d9e079b4d8f6ef49f2513af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4020aebeda6ee90d2d1e9283c35f9c48') in 0.027632 seconds
+  Import took 0.030502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood.prefab
+  artifactKey: Guid(6e4bf3eb465e5fe4a8c576ef324c9041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_wood.prefab using Guid(6e4bf3eb465e5fe4a8c576ef324c9041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39efd9a9a08da3e6517a9674fdae187') in 0.031615 seconds
+  Import took 0.033607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/key_silver.prefab
+  artifactKey: Guid(3b84873e67da24e438f3281f154bb645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/key_silver.prefab using Guid(3b84873e67da24e438f3281f154bb645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677c69cffb2d2b3647bb4e7134334c6f') in 0.022994 seconds
+  Import took 0.024807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_metal_rounded_right.prefab
+  artifactKey: Guid(e7b210b9dc076674eaf1bf7d3ded4e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_metal_rounded_right.prefab using Guid(e7b210b9dc076674eaf1bf7d3ded4e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e090d3ecac90ecfe48b66879664833') in 0.031190 seconds
+  Import took 0.033123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_metal_rounded_double_top.prefab
+  artifactKey: Guid(dd0f21b04ca31594da5678451b3ee2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_metal_rounded_double_top.prefab using Guid(dd0f21b04ca31594da5678451b3ee2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d62fce869d20855769c70cad0af9c6') in 0.025659 seconds
+  Import took 0.027546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_stone_rounded_top.prefab
+  artifactKey: Guid(98f23d62c66da914ab52be05d8d86a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_stone_rounded_top.prefab using Guid(98f23d62c66da914ab52be05d8d86a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce95611214c5fa1e4777f318c208a2f') in 0.032789 seconds
+  Import took 0.034515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_stone_single.prefab
+  artifactKey: Guid(e021eefb31087b342a63ccbab1a11086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_stone_single.prefab using Guid(e021eefb31087b342a63ccbab1a11086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78f2932ff403a2b98bfa6564096d73d') in 0.025038 seconds
+  Import took 0.028005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_stone_rounded_single.prefab
+  artifactKey: Guid(464dbd6b3899f494693afc49c9c0fcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Cube_World/Doors/Prefabs/door_frame_stone_rounded_single.prefab using Guid(464dbd6b3899f494693afc49c9c0fcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a751d6a12723344cf1bee120d7722932') in 0.024769 seconds
+  Import took 0.026571 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
