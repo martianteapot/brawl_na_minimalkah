@@ -1,0 +1,170 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1379; Version 1909; 64bit' Language: 'ru' Physical Memory: 16317 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projects/brawl_na_minimalkah/brawl_na_minimalkah
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52653
+Successfully changed project path to: D:/Projects/brawl_na_minimalkah/brawl_na_minimalkah
+D:/Projects/brawl_na_minimalkah/brawl_na_minimalkah
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/brawl_na_minimalkah/brawl_na_minimalkah/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   
+    VRAM:     8011 MB
+    Driver:   27.21.14.5730
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001513 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 25.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.435 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.692 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.6 MB.
+System memory in use after: 57.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1541.
+Total: 1.783300 ms (FindLiveObjects: 0.130300 ms CreateObjectMapping: 0.050200 ms MarkObjects: 1.519200 ms  DeleteObjects: 0.082600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9831e44e2a700a6e1119228b2d38e767') in 0.011434 seconds
+  Import took 0.013510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.308483 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9831e44e2a700a6e1119228b2d38e767') in 0.001960 seconds
+  Import took 0.004049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.326072 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(35ed5d04642635b45ac4cf5d38bc9ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(35ed5d04642635b45ac4cf5d38bc9ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2952dff7b0e8bf1ee8656d3db72eaa5') in 0.005925 seconds
+  Import took 0.008078 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000414 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.602 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.7 MB.
+System memory in use after: 57.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1543.
+Total: 1.306300 ms (FindLiveObjects: 0.141100 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.087900 ms  DeleteObjects: 0.034700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.103939 seconds.
+  path: Assets/Bitgem/Scenes
+  artifactKey: Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bitgem/Scenes using Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb000aa48c9fad785045774af4d49469') in 0.004175 seconds
+  Import took 0.006235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.586311 seconds.
+  path: Assets/Meshtint Free Knight/Scenes
+  artifactKey: Guid(c565cb3d2c64ce541be95aa624c8d867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Knight/Scenes using Guid(c565cb3d2c64ce541be95aa624c8d867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6678eac8cab725ab37ee8f207f8b7c46') in 0.002524 seconds
+  Import took 0.004738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.925917 seconds.
+  path: Assets/Meshtint Free Knight/Scenes/Ortho Scene.unity
+  artifactKey: Guid(b51e6e700bd47944a8ecc7b69b72ac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Knight/Scenes/Ortho Scene.unity using Guid(b51e6e700bd47944a8ecc7b69b72ac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bae52fc15444f75dd223e03072ca826') in 0.012969 seconds
+  Import took 0.015046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.541706 seconds.
+  path: Assets/Meshtint Free Knight/Scenes/3rd Person Controller.unity
+  artifactKey: Guid(0e38c937b3611904c9badaf3865ae050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Knight/Scenes/3rd Person Controller.unity using Guid(0e38c937b3611904c9badaf3865ae050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4dabbae4076e59db5a957293df89e1') in 0.006785 seconds
+  Import took 0.009005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Meshtint Free Knight/Scenes/3rd Person Controller.unity
+  artifactKey: Guid(0e38c937b3611904c9badaf3865ae050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Knight/Scenes/3rd Person Controller.unity using Guid(0e38c937b3611904c9badaf3865ae050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4dabbae4076e59db5a957293df89e1') in 0.002335 seconds
+  Import took 0.004392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.612216 seconds.
+  path: Assets/Meshtint Free Knight/UI/Important!!! Read me.prefab
+  artifactKey: Guid(2eb6d9a882a95a54f97244f20bddea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Knight/UI/Important!!! Read me.prefab using Guid(2eb6d9a882a95a54f97244f20bddea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7da53b5e94d3e88a8f858c51318d7d') in 0.037713 seconds
+  Import took 0.039531 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
