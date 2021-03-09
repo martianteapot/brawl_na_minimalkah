@@ -35,5 +35,6 @@ public class PlayerMovement : MonoBehaviour
             transform.Translate(Vector3.forward * Time.deltaTime * speed);
             anim.SetBool("isRunning", true);
         } 
+        
     }
 }

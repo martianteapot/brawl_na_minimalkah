@@ -9,6 +9,8 @@ public class Timer : MonoBehaviour
     public bool timerIsRunning = false;
     public Text timeText;
     public Animator animator;
+    public Animator animator2;
+    public GameObject spawnEnemies;
 
     private void Start()
     {
@@ -24,13 +26,14 @@ public class Timer : MonoBehaviour
             {
                 timeRemaining -= Time.deltaTime;
                 DisplayTime(timeRemaining);
-                animator.SetBool("endLevel", false);
             }
             else
             {
                 timeRemaining = 0;
                 timerIsRunning = false;
                 animator.SetBool("endLevel", true);
+                animator2.SetBool("endLevel", true);
+                Destroy(spawnEnemies);
                     
         
             }
