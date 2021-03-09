@@ -8,6 +8,7 @@ public class Timer : MonoBehaviour
     public float timeRemaining = 10;
     public bool timerIsRunning = false;
     public Text timeText;
+    public Animator animator;
 
     private void Start()
     {
@@ -23,11 +24,15 @@ public class Timer : MonoBehaviour
             {
                 timeRemaining -= Time.deltaTime;
                 DisplayTime(timeRemaining);
+                animator.SetBool("endLevel", false);
             }
             else
             {
                 timeRemaining = 0;
                 timerIsRunning = false;
+                animator.SetBool("endLevel", true);
+                    
+        
             }
         }
     }
