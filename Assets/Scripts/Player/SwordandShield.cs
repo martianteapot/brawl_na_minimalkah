@@ -16,7 +16,6 @@ public class SwordandShield : MonoBehaviour
         blockPossible = false;
         yield return new WaitForSeconds(1);
         inBlock();
-        yield return new WaitForSeconds(1);
         blockPossible = true;
     }
 
