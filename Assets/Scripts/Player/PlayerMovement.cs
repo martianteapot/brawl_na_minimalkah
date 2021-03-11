@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         PlayerSprite.position = new Vector3(joystick.Horizontal + transform.position.x, 1.1f, joystick.Vertical + transform.position.z);
         transform.LookAt(new Vector3(PlayerSprite.position.x, 0, PlayerSprite.position.z));
@@ -30,11 +30,27 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("isRunning", false);
         } 
         
-        if(joystick.Horizontal > 0 || joystick.Horizontal < 0 || joystick.Vertical > 0 || joystick.Vertical < 0)
+        /*if(joystick.Horizontal > 0 || joystick.Horizontal < 0 || joystick.Vertical > 0 || joystick.Vertical < 0)
         {
             transform.Translate(Vector3.forward * Time.deltaTime * speed);
             anim.SetBool("isRunning", true);
-        } 
+        }*/
+
+        if(joystick.enabled == true)
+        {
+            if(joystick.Horizontal > 0 || joystick.Horizontal < 0 || joystick.Vertical > 0 || joystick.Vertical < 0)
+        {
+            transform.Translate(Vector3.forward * Time.deltaTime * speed);
+            anim.SetBool("isRunning", true);
+        }
+        }
+
+          if(joystick.enabled == false)
+        {
+            transform.Translate(Vector3.zero);
+        }
+
+
         
     }
 }

@@ -9,22 +9,25 @@ public class SwordandShield : MonoBehaviour
     bool blockPossible = true;
     [SerializeField]
     Joystick joystick;
-    bool attackPossible = false;
+    //bool attackPossible = false;
+    public GameObject mySword;
 
     IEnumerator shield()
     {
         blockPossible = false;
         yield return new WaitForSeconds(1);
         inBlock();
-        blockPossible = true;
+        //blockPossible = true;
     }
 
     IEnumerator sword()
     {
+        mySword.GetComponent<Collider>().enabled = true;
         anim.SetBool("slash", true);
-        attackPossible = false;
+        //attackPossible = false;
         yield return new WaitForSeconds(1);
         inAttack();
+        mySword.GetComponent<Collider>().enabled = false;
         yield return new WaitForSeconds(1);
     }
         
@@ -53,7 +56,7 @@ public class SwordandShield : MonoBehaviour
         
         if(joystick.Horizontal > 0 || joystick.Horizontal < 0 || joystick.Vertical > 0 || joystick.Vertical < 0)
         {
-            attackPossible = true;
+            //attackPossible = true;
             StartCoroutine(sword());
         }        
     }
@@ -65,6 +68,7 @@ public class SwordandShield : MonoBehaviour
 
     void inAttack()
     {
+        
         anim.SetBool("slash", false);    
     }
 

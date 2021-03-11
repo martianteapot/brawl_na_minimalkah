@@ -8,6 +8,7 @@ TagManager:
   - Spike
   - Sword
   - Shield
+  - Heal
   layers:
   - Default
   - TransparentFX
