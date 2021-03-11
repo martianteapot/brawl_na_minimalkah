@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 197c8d470e752da47ac612e98661c3c8
+guid: 29a357b0f16cc7041b04377c38c46ac0
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Caesar Dressing Cyrillic
+  - Goblin One
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
