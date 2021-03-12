@@ -11,13 +11,16 @@ public class SwordandShield : MonoBehaviour
     Joystick joystick;
     //bool attackPossible = false;
     public GameObject mySword;
+    public GameObject myShield;
 
     IEnumerator shield()
     {
         blockPossible = false;
+        myShield.GetComponent<Collider>().enabled = true;
         yield return new WaitForSeconds(1);
         inBlock();
-        //blockPossible = true;
+        myShield.GetComponent<Collider>().enabled = false;
+        blockPossible = true;
     }
 
     IEnumerator sword()

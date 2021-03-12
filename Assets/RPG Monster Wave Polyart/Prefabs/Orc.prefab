@@ -179,6 +179,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orc: {fileID: 3965469032061261654}
   anim: {fileID: 3915945106876079590}
+  orcSword: {fileID: 3967184377603250422}
+  canAttack: 1
 --- !u!195 &3966489940306543350
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1362,11 +1364,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 3967184377603250422}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.48
-  m_Height: 0.42
+  m_Enabled: 0
+  m_Radius: 1.36
+  m_Height: 1.96
   m_Direction: 1
-  m_Center: {x: -1.42, y: -1.07, z: -0.36}
+  m_Center: {x: 0.08, y: -1.05, z: -0.36}
 --- !u!1 &3967228410953146800
 GameObject:
   m_ObjectHideFlags: 0

@@ -39990,7 +39990,7 @@ Transform:
   m_Children:
   - {fileID: 705507995}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1738659869
 PrefabInstance:
@@ -49371,17 +49371,13 @@ PrefabInstance:
       propertyPath: joystick
       value: 
       objectReference: {fileID: 1384656380}
-    - target: {fileID: 4657457546129019695, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4657468027832610705, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4661078496809895903, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4661078496809895903, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -49422,10 +49418,6 @@ PrefabInstance:
     - target: {fileID: 4661078496809895903, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4679479844845534653, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
@@ -49483,10 +49475,6 @@ PrefabInstance:
     - target: {fileID: 6210428227027029699, guid: a9019c0c9aae7704988f56faad104586, type: 3}
       propertyPath: m_Name
       value: Skeleton
-      objectReference: {fileID: 0}
-    - target: {fileID: 6210428227027029699, guid: a9019c0c9aae7704988f56faad104586, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9019c0c9aae7704988f56faad104586, type: 3}

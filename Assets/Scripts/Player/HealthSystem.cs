@@ -22,7 +22,7 @@ public class HealthSystem : MonoBehaviour
     IEnumerator death()
     {
         anim.SetTrigger("die");
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(5);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     IEnumerator powerup()
@@ -43,26 +43,41 @@ public class HealthSystem : MonoBehaviour
         if(life < 1)
         {
             hearts[0].gameObject.SetActive(false);
+            hearts[1].gameObject.SetActive(false);
+            hearts[2].gameObject.SetActive(false);
+            hearts[3].gameObject.SetActive(false);
+            hearts[4].gameObject.SetActive(false);
+            hearts[5].gameObject.SetActive(false);
             //Destroy(hearts[0].gameObject);
         } 
         else if (life < 2)
         {
             hearts[1].gameObject.SetActive(false);
+            hearts[2].gameObject.SetActive(false);
+            hearts[3].gameObject.SetActive(false);
+            hearts[4].gameObject.SetActive(false);
+            hearts[5].gameObject.SetActive(false);
             //Destroy(hearts[1].gameObject);
         }
         else if (life < 3)
         {
             hearts[2].gameObject.SetActive(false);
+            hearts[3].gameObject.SetActive(false);
+            hearts[4].gameObject.SetActive(false);
+            hearts[5].gameObject.SetActive(false);
             //Destroy(hearts[2].gameObject);
         }
         else if (life < 4)
         {
             hearts[3].gameObject.SetActive(false);
+            hearts[4].gameObject.SetActive(false);
+            hearts[5].gameObject.SetActive(false);
             //Destroy(hearts[3].gameObject);
         }
         else if (life < 5)
         {
             hearts[4].gameObject.SetActive(false);
+            hearts[5].gameObject.SetActive(false);
             //Destroy(hearts[4].gameObject);
         }
         else if (life < 6)

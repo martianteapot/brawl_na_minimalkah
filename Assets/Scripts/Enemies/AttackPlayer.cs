@@ -10,21 +10,50 @@ public class AttackPlayer : MonoBehaviour
     [SerializeField]
     Animator anim;
     private bool deadman = false;
+    public GameObject orcSword;
+    public bool canAttack;
+    bool timeToVictory = true;
     // Start is called before the first frame update
-    void Start()
+    IEnumerator sword()
     {
-    
+        canAttack = false;
+        anim.SetBool("isAttack", true);
+        orcSword.GetComponent<Collider>().enabled = true;
+        yield return new WaitForSeconds(1.5f);
+        orcSword.GetComponent<Collider>().enabled = false;
+        anim.SetBool("isAttack", false);
+        yield return new WaitForSeconds(5);
+        canAttack = true;
+    }
+
+    IEnumerator gethit()
+    {
+        anim.SetBool("getHit", true);
+        yield return new WaitForSeconds(1);
+        anim.SetBool("getHit", false);
+    }
+
+    IEnumerator dieorc()
+    {
+        yield return new WaitForSeconds(2);
+        Destroy(orc);
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         target = GameObject.Find("Player").transform;
         UnityEngine.AI.NavMeshAgent agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         if(deadman == false)
         {
             agent.destination = target.position; 
-        }            
+        }
+
+        if(deadman == false && canAttack == true)
+        {
+            StartCoroutine(sword()); 
+        }
+
     }
     
     void OnTriggerEnter(Collider other)
@@ -33,7 +62,15 @@ public class AttackPlayer : MonoBehaviour
         {
             anim.SetTrigger("die");
             deadman = true;
-            //Destroy(orc);
+            StartCoroutine(dieorc()); 
+            
         }
+
+        if (other.CompareTag("Shield"))
+        {
+            StartCoroutine(gethit());
+            
+        }
+
     }
 }
