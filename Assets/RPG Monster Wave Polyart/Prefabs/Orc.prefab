@@ -178,6 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orc: {fileID: 3965469032061261654}
+  anim: {fileID: 3915945106876079590}
 --- !u!195 &3966489940306543350
 NavMeshAgent:
   m_ObjectHideFlags: 0

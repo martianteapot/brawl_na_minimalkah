@@ -7,6 +7,9 @@ public class AttackPlayer : MonoBehaviour
 {
     private Transform target;
     public GameObject orc;
+    [SerializeField]
+    Animator anim;
+    private bool deadman = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,14 +21,19 @@ public class AttackPlayer : MonoBehaviour
     {
         target = GameObject.Find("Player").transform;
         UnityEngine.AI.NavMeshAgent agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
-        agent.destination = target.position;             
+        if(deadman == false)
+        {
+            agent.destination = target.position; 
+        }            
     }
     
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Sword"))
         {
-            Destroy(orc);
+            anim.SetTrigger("die");
+            deadman = true;
+            //Destroy(orc);
         }
     }
 }

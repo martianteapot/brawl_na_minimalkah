@@ -33210,7 +33210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3020772218756598690, guid: 23b9050cfa5c9264183df945dcbd443d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.3470478
+      value: -4.85
       objectReference: {fileID: 0}
     - target: {fileID: 3020772218756598690, guid: 23b9050cfa5c9264183df945dcbd443d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -33218,7 +33218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3020772218756598690, guid: 23b9050cfa5c9264183df945dcbd443d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.04
+      value: 12.82
       objectReference: {fileID: 0}
     - target: {fileID: 3020772218756598690, guid: 23b9050cfa5c9264183df945dcbd443d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -35877,11 +35877,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4789717451023182, guid: 9aa8f1b1cb27f8e44b35077eeedda437, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.17
       objectReference: {fileID: 0}
     - target: {fileID: 4789717451023182, guid: 9aa8f1b1cb27f8e44b35077eeedda437, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.048
+      value: -3.63
       objectReference: {fileID: 0}
     - target: {fileID: 4789717451023182, guid: 9aa8f1b1cb27f8e44b35077eeedda437, type: 3}
       propertyPath: m_LocalRotation.w
@@ -38378,15 +38378,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3020772218756598690, guid: 23b9050cfa5c9264183df945dcbd443d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.3470478
+      value: -1.8
       objectReference: {fileID: 0}
     - target: {fileID: 3020772218756598690, guid: 23b9050cfa5c9264183df945dcbd443d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.65
+      value: 0.87
       objectReference: {fileID: 0}
     - target: {fileID: 3020772218756598690, guid: 23b9050cfa5c9264183df945dcbd443d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.03
+      value: 16.74
       objectReference: {fileID: 0}
     - target: {fileID: 3020772218756598690, guid: 23b9050cfa5c9264183df945dcbd443d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -44856,8 +44856,8 @@ MonoBehaviour:
   - {fileID: 3965469032061261654, guid: 4110fce6703796a4e9cef3c12a037ae1, type: 3}
   - {fileID: 6210428227027029699, guid: a9019c0c9aae7704988f56faad104586, type: 3}
   spawnPos: {fileID: 98926376}
-  timeBtwChange: 0
-  startTimeBtwChange: 5
+  timeBtwChange: 14
+  startTimeBtwChange: 15
 --- !u!1001 &1953315659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49322,10 +49322,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orc
       objectReference: {fileID: 0}
-    - target: {fileID: 3965469032061261654, guid: 4110fce6703796a4e9cef3c12a037ae1, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4110fce6703796a4e9cef3c12a037ae1, type: 3}
 --- !u!1001 &4657012135486821299
@@ -49375,6 +49371,10 @@ PrefabInstance:
       propertyPath: joystick
       value: 
       objectReference: {fileID: 1384656380}
+    - target: {fileID: 4657457546129019695, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4657468027832610705, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
       propertyPath: m_Name
       value: Player
@@ -49422,6 +49422,10 @@ PrefabInstance:
     - target: {fileID: 4661078496809895903, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4679479844845534653, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
