@@ -809,6 +809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4661265746539633367}
   - component: {fileID: 4657012136735667635}
+  - component: {fileID: 7108499980052762189}
   m_Layer: 0
   m_Name: RigRCollarbone
   m_TagString: Sword
@@ -845,6 +846,20 @@ CapsuleCollider:
   m_Height: 1.93
   m_Direction: 1
   m_Center: {x: -0.24, y: 0.23, z: -0.56}
+--- !u!114 &7108499980052762189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4658002396838890667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51a53669eb7c82a4b9e52fe6d95b6a2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loots: []
+  wealth: 0
 --- !u!1 &4658012192851717809
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,10 +902,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 0
-  m_Radius: 1.44
-  m_Height: 1.42
+  m_Radius: 0.72
+  m_Height: 1.65
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: -0.54, y: 0.49, z: 0.32}
 --- !u!1 &4658036513884618089
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,7 +12,6 @@ public class AttackPlayer : MonoBehaviour
     private bool deadman = false;
     public GameObject orcSword;
     public bool canAttack;
-    bool timeToVictory = true;
     // Start is called before the first frame update
     IEnumerator sword()
     {

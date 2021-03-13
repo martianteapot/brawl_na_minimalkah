@@ -11,6 +11,7 @@ public class Timer : MonoBehaviour
     public Animator animator;
     public Animator animator2;
     public GameObject spawnEnemies;
+    public GameObject loot;
 
     private void Start()
     {
@@ -34,6 +35,7 @@ public class Timer : MonoBehaviour
                 animator.SetBool("endLevel", true);
                 animator2.SetBool("endLevel", true);
                 Destroy(spawnEnemies);
+                Destroy(loot);
                     
         
             }

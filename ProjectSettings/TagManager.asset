@@ -9,6 +9,7 @@ TagManager:
   - Sword
   - Shield
   - Heal
+  - Loot
   layers:
   - Default
   - TransparentFX
