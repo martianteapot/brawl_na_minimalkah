@@ -17,7 +17,7 @@ public class SwordandShield : MonoBehaviour
     {
         blockPossible = false;
         myShield.GetComponent<Collider>().enabled = true;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         inBlock();
         myShield.GetComponent<Collider>().enabled = false;
         blockPossible = true;
