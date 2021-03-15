@@ -10,6 +10,9 @@ TagManager:
   - Shield
   - Heal
   - Loot
+  - Stop
+  - Push
+  - Trolley
   layers:
   - Default
   - TransparentFX
