@@ -12,6 +12,7 @@ public class HealthSystem : MonoBehaviour
     Collider myCollider;
     bool canDie = true;
     public GameObject Movement;
+    public GameObject Death;
     
 
     IEnumerator hit()
@@ -23,7 +24,8 @@ public class HealthSystem : MonoBehaviour
     {
         anim.SetTrigger("die");
         yield return new WaitForSeconds(5);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Death.gameObject.SetActive(true);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     IEnumerator powerup()
     {

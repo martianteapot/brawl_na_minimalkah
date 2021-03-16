@@ -54093,6 +54093,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9aa8f1b1cb27f8e44b35077eeedda437, type: 3}
+--- !u!1 &2106162373 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2106162373, guid: 9a83b6d2de2cdc74dac6522c07ba5eae, type: 3}
+  m_PrefabInstance: {fileID: 6399885497620169121}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2106298406
 GameObject:
   m_ObjectHideFlags: 0
@@ -57000,6 +57005,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 43861275}
     - target: {fileID: 4657012136180401237, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
+      propertyPath: Death
+      value: 
+      objectReference: {fileID: 2106162373}
+    - target: {fileID: 4657012136180401237, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
       propertyPath: Movement
       value: 
       objectReference: {fileID: 1791192399}
@@ -57078,10 +57087,6 @@ PrefabInstance:
     - target: {fileID: 4661078496809895903, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7108499980052762189, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
-      propertyPath: loots.Array.size
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7108499980052762189, guid: 3f2596de875d53340b9d58e214104ef0, type: 3}
       propertyPath: loots.Array.data[0]

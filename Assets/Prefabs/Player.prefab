@@ -388,6 +388,7 @@ MonoBehaviour:
   heal: {fileID: 0}
   life: 6
   Movement: {fileID: 0}
+  Death: {fileID: 0}
 --- !u!1 &4657525496036228679
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,8 +860,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51a53669eb7c82a4b9e52fe6d95b6a2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loots: []
+  loots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   wealth: 0
+  mineText: {fileID: 0}
 --- !u!1 &4658012192851717809
 GameObject:
   m_ObjectHideFlags: 0
