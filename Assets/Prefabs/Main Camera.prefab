@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2626019233442735849}
   - component: {fileID: 2626019233442735850}
   - component: {fileID: 2626019233442735851}
+  - component: {fileID: 849813583}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -28,13 +29,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2626019233442735853}
-  m_LocalRotation: {x: 0.5159641, y: -0.001111788, z: 0.0006696667, w: 0.8566092}
+  m_LocalRotation: {x: -0.51596487, y: 0.001113839, z: -0.0006709034, w: -0.8566088}
   m_LocalPosition: {x: -1.64, y: 10.110001, z: -2.6399999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -305.67, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -297.876, y: -0.149, z: 0}
 --- !u!20 &2626019233442735855
 Camera:
   m_ObjectHideFlags: 0
@@ -129,7 +130,7 @@ AudioSource:
   m_GameObject: {fileID: 2626019233442735853}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: ca02abb291eba7449b517fb0009c7a16, type: 2}
   m_audioClip: {fileID: 8300000, guid: 722920059e8569948a4e36acefdb0877, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.138
@@ -225,7 +226,7 @@ AudioSource:
   m_GameObject: {fileID: 2626019233442735853}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: ca02abb291eba7449b517fb0009c7a16, type: 2}
   m_audioClip: {fileID: 8300000, guid: 482f575df37c0db4fa9e70ce30a771be, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.046
@@ -312,3 +313,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!167 &849813583
+AudioReverbZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2626019233442735853}
+  m_Enabled: 1
+  m_MinDistance: 10
+  m_MaxDistance: 15
+  m_ReverbPreset: 1
+  m_Room: -1000
+  m_RoomHF: -100
+  m_DecayTime: 1.49
+  m_DecayHFRatio: 0.83
+  m_Reflections: -2602
+  m_ReflectionsDelay: 0.007
+  m_Reverb: 200
+  m_ReverbDelay: 0.011
+  m_HFReference: 5000
+  m_Diffusion: 100
+  m_Density: 100
+  m_LFReference: 250
+  m_RoomLF: 0
