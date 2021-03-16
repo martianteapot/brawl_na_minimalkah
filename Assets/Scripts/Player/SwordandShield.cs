@@ -7,6 +7,7 @@ public class SwordandShield : MonoBehaviour
     // Start is called before the first frame update
     public Animator anim;
     bool blockPossible = true;
+    bool attackPossible = true;
     [SerializeField]
     Joystick joystick;
     //bool attackPossible = false;
@@ -15,7 +16,6 @@ public class SwordandShield : MonoBehaviour
 
     IEnumerator shield()
     {
-        blockPossible = false;
         myShield.GetComponent<Collider>().enabled = true;
         yield return new WaitForSeconds(0.5f);
         inBlock();
@@ -27,16 +27,23 @@ public class SwordandShield : MonoBehaviour
     {
         mySword.GetComponent<Collider>().enabled = true;
         anim.SetBool("slash", true);
-        //attackPossible = false;
         yield return new WaitForSeconds(1);
         inAttack();
         mySword.GetComponent<Collider>().enabled = false;
         yield return new WaitForSeconds(1);
+        attackPossible = true;
     }
         
     void FixedUpdate()
     { 
-        Attack();   
+        if(attackPossible == true)
+        {  
+          if(joystick.Horizontal > 0 || joystick.Horizontal < 0 || joystick.Vertical > 0 || joystick.Vertical < 0)
+        {
+            attackPossible = false;
+            StartCoroutine(sword());
+        }
+        }  
     }
     
     public void Block()
@@ -45,24 +52,21 @@ public class SwordandShield : MonoBehaviour
         {
         anim.SetBool("block", true);
         StartCoroutine(shield());
+        blockPossible = false;
         return;
         }         
     }
 
-    void Attack()
-    {
+    //void Attack()
+    //{
         /*if(attackPossible == true && joystick.Horizontal == 0 || joystick.Vertical == 0)
         {
             //anim.SetBool("slash", true);
             StartCoroutine(sword());
         }*/ 
         
-        if(joystick.Horizontal > 0 || joystick.Horizontal < 0 || joystick.Vertical > 0 || joystick.Vertical < 0)
-        {
-            //attackPossible = true;
-            StartCoroutine(sword());
-        }        
-    }
+             
+    //}
 
     public void inBlock()
     {
