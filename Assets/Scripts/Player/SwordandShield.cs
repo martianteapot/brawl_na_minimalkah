@@ -16,15 +16,20 @@ public class SwordandShield : MonoBehaviour
 
     IEnumerator shield()
     {
+        blockPossible = false;
+        HealthSystem.canTakeDamage = false;
+        anim.SetBool("block", true);
         myShield.GetComponent<Collider>().enabled = true;
         yield return new WaitForSeconds(0.5f);
         inBlock();
         myShield.GetComponent<Collider>().enabled = false;
+        HealthSystem.canTakeDamage = true;
         blockPossible = true;
     }
 
     IEnumerator sword()
     {
+        
         mySword.GetComponent<Collider>().enabled = true;
         anim.SetBool("slash", true);
         yield return new WaitForSeconds(1);
@@ -48,11 +53,10 @@ public class SwordandShield : MonoBehaviour
     
     public void Block()
     {
-        if(blockPossible == true)
+        if(blockPossible == true && HealthSystem.canTakeDamage == true)
         {
-        anim.SetBool("block", true);
+        
         StartCoroutine(shield());
-        blockPossible = false;
         return;
         }         
     }

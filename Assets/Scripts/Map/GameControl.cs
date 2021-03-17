@@ -17,7 +17,8 @@ public class GameControl : MonoBehaviour
 
     public void GuitToMenu()
     {
-        SceneManager.LoadScene(0);        
+        SceneManager.LoadScene(0);  
+        OffPause ();      
     }
 
     public void OnPause () {

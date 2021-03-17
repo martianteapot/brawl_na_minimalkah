@@ -13,6 +13,7 @@ TagManager:
   - Stop
   - Push
   - Trolley
+  - Spike1
   layers:
   - Default
   - TransparentFX
