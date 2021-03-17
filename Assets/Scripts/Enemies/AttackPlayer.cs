@@ -28,7 +28,9 @@ public class AttackPlayer : MonoBehaviour
     IEnumerator gethit()
     {
         anim.SetBool("getHit", true);
-        yield return new WaitForSeconds(1);
+        transform.Translate(Vector3.back);
+        yield return new WaitForSeconds(.5f);
+        transform.Translate(Vector3.zero);
         anim.SetBool("getHit", false);
     }
 
