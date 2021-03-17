@@ -13,6 +13,7 @@ public class SwordandShield : MonoBehaviour
     //bool attackPossible = false;
     public GameObject mySword;
     public GameObject myShield;
+    public AudioSource playerAudioSource;
 
     IEnumerator shield()
     {
@@ -32,7 +33,9 @@ public class SwordandShield : MonoBehaviour
         
         mySword.GetComponent<Collider>().enabled = true;
         anim.SetBool("slash", true);
+        
         yield return new WaitForSeconds(1);
+        playerAudioSource.Play();
         inAttack();
         mySword.GetComponent<Collider>().enabled = false;
         yield return new WaitForSeconds(1);

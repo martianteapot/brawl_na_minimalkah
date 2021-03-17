@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.SetBool("isRunning", false);
             transform.Translate(Vector3.zero);
+            //playerAudioSource.Play();
         } 
         
         /*if(joystick.Horizontal > 0 || joystick.Horizontal < 0 || joystick.Vertical > 0 || joystick.Vertical < 0)

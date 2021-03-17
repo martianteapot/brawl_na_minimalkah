@@ -42,6 +42,7 @@ public class HealthSystem : MonoBehaviour
         anim.SetTrigger("die");
         yield return new WaitForSeconds(1);
         Death.gameObject.SetActive(true);
+        Time.timeScale = 0;
         
     }
     IEnumerator powerup()

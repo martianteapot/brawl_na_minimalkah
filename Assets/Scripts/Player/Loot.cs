@@ -10,6 +10,7 @@ public class Loot : MonoBehaviour
     private int mineWealth;
     private int lootInmine;
     public Text mineText;
+    public GameObject gold;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +40,11 @@ public class Loot : MonoBehaviour
         {
             loots[2].gameObject.SetActive(true);
         } 
+        if(mineWealth > 0)
+        {
+            gold.gameObject.SetActive(true);
+        } 
+
     }
 
     void OnTriggerEnter(Collider other)
@@ -58,6 +64,7 @@ public class Loot : MonoBehaviour
             }
             mineText.text = string.Format("{0}/{1}", mineWealth, lootInmine); 
             wealth = 0;
+
         }
     }
 

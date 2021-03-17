@@ -12,11 +12,19 @@ public class Timer : MonoBehaviour
     public Animator animator2;
     public GameObject spawnEnemies;
     public GameObject loot;
+    public GameObject briefing;
 
+    IEnumerator brief()
+    {
+       yield return new WaitForSeconds(6);
+       briefing.gameObject.SetActive(false); 
+    }
+    
     private void Start()
     {
         // Starts the timer automatically
         timerIsRunning = true;
+        StartCoroutine(brief());
     }
 
     void Update()
@@ -27,6 +35,7 @@ public class Timer : MonoBehaviour
             {
                 timeRemaining -= Time.deltaTime;
                 DisplayTime(timeRemaining);
+ 
             }
             else
             {

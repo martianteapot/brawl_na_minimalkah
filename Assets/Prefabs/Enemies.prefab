@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 1933943095900222047}
   - component: {fileID: 1933943095900222046}
   m_Layer: 0
-  m_Name: Enemies 1
+  m_Name: Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1960,7 +1960,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6206843648892027873, guid: a9019c0c9aae7704988f56faad104586, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.010229519
+      value: 0.010229306
       objectReference: {fileID: 0}
     - target: {fileID: 6206843648892027873, guid: a9019c0c9aae7704988f56faad104586, type: 3}
       propertyPath: m_LocalPosition.y

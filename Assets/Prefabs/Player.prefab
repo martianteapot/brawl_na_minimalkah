@@ -387,8 +387,14 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   heal: {fileID: 0}
-  life: 6
+  life: 12
   Movement: {fileID: 0}
   Death: {fileID: 0}
 --- !u!82 &271492574
