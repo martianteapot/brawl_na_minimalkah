@@ -2016,6 +2016,7 @@ MonoBehaviour:
   anim: {fileID: 6304458443946209837}
   orcSword: {fileID: 6208272864014455607}
   canAttack: 1
+  playerAudioSource: {fileID: 0}
 --- !u!195 &6209386059358156756
 NavMeshAgent:
   m_ObjectHideFlags: 0

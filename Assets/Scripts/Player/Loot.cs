@@ -11,6 +11,7 @@ public class Loot : MonoBehaviour
     private int lootInmine;
     public Text mineText;
     public GameObject gold;
+    public AudioSource playerAudioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,12 +53,14 @@ public class Loot : MonoBehaviour
         if (other.CompareTag("Loot"))
         {
             wealth += 1;
+            playerAudioSource.Play();
             other.gameObject.SetActive(false);
         }
 
         if (other.CompareTag("Trolley") && mineWealth < lootInmine)
         {
             mineWealth += wealth;
+            playerAudioSource.Play();
             if(mineWealth > lootInmine)
             {
                mineWealth = lootInmine; 

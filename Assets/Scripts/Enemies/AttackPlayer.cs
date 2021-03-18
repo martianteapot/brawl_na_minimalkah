@@ -12,6 +12,7 @@ public class AttackPlayer : MonoBehaviour
     private bool deadman = false;
     public GameObject orcSword;
     public bool canAttack;
+    //public AudioSource playerAudioSource;
     // Start is called before the first frame update
     IEnumerator sword()
     {
@@ -36,6 +37,7 @@ public class AttackPlayer : MonoBehaviour
 
     IEnumerator dieorc()
     {
+        //playerAudioSource.Play();
         yield return new WaitForSeconds(3);
         Destroy(orc);
     }
@@ -57,6 +59,7 @@ public class AttackPlayer : MonoBehaviour
         if (other.CompareTag("Sword"))
         {
             anim.SetTrigger("die");
+            
             deadman = true;
             StartCoroutine(dieorc()); 
             
@@ -65,6 +68,7 @@ public class AttackPlayer : MonoBehaviour
         if (other.CompareTag("Shield"))
         {
             anim.SetTrigger("inHit");
+
             StartCoroutine(gethit());
         }
 
