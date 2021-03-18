@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField]
     Transform PlayerSprite;
-    
+    public CharacterController controller;
     public AudioSource playerAudioSource;
     private Animator anim;
     private float speed = 1f;
@@ -23,23 +23,15 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-         
 
+
+        
         if(joystick.Horizontal == 0 || joystick.Vertical == 0)
         {
             anim.SetBool("isRunning", false);
             transform.Translate(Vector3.zero);
             //playerAudioSource.Play();
         } 
-        
-        /*if(joystick.Horizontal > 0 || joystick.Horizontal < 0 || joystick.Vertical > 0 || joystick.Vertical < 0)
-        {
-            transform.Translate(Vector3.forward * Time.deltaTime * speed);
-            anim.SetBool("isRunning", true);
-        }*/
-
-        
-        
         if(joystick.Horizontal > 0 || joystick.Horizontal < 0 || joystick.Vertical > 0 || joystick.Vertical < 0)
         {
             PlayerSprite.position = new Vector3(joystick.Horizontal + transform.position.x, 1.1f, joystick.Vertical + transform.position.z);
@@ -49,13 +41,6 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("isRunning", true);
             
         }
-        
-
-        /*  if(joystick.enabled == false)
-        {
-            transform.Translate(Vector3.zero);
-        }
-        */
 
         
     }

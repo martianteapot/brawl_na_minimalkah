@@ -1,5 +1,50 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2140944287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2140944288}
+  - component: {fileID: 2140944289}
+  m_Layer: 0
+  m_Name: HitBox
+  m_TagString: HitBox
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2140944288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140944287}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4661078496809895903}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &2140944289
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140944287}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.82
+  m_Height: 2.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.92, z: 0}
 --- !u!1 &4657012136004705894
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,6 +330,7 @@ Transform:
   - {fileID: 4661369743640587791}
   - {fileID: 4657012136004705893}
   - {fileID: 8829596064922040479}
+  - {fileID: 2140944288}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -365,7 +411,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 4752381710806061571}
-  joystick: {fileID: 0}
   mySword: {fileID: 4658002396838890667}
   myShield: {fileID: 4658012192851717809}
 --- !u!114 &4657012136180401237
@@ -397,6 +442,7 @@ MonoBehaviour:
   life: 12
   Movement: {fileID: 0}
   Death: {fileID: 0}
+  ClickPause: {fileID: 0}
 --- !u!82 &271492574
 AudioSource:
   m_ObjectHideFlags: 0
@@ -407,11 +453,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: ca02abb291eba7449b517fb0009c7a16, type: 2}
-  m_audioClip: {fileID: 8300000, guid: a948133482bd9461cbcb85c1b36c59b7, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.04
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -970,6 +1016,7 @@ MonoBehaviour:
   - {fileID: 0}
   wealth: 0
   mineText: {fileID: 0}
+  gold: {fileID: 0}
 --- !u!1 &4658012192851717809
 GameObject:
   m_ObjectHideFlags: 0

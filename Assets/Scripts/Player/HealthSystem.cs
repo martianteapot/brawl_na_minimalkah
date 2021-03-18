@@ -14,26 +14,23 @@ public class HealthSystem : MonoBehaviour
     public GameObject Movement;
     public GameObject Death;
     public static bool canTakeDamage = true;
+    public GameObject ClickPause;
 
     IEnumerator hit()
     {
-        anim.SetBool("hit", true);
         TakeDamage(2);
         transform.Translate(Vector3.back * 0.5f);
         yield return new WaitForSeconds(.1f);
         transform.Translate(Vector3.zero);
-        anim.SetBool("hit", false);
         canTakeDamage = true;
     }
 
     IEnumerator hit1()
     {
-        anim.SetBool("hit", true);
         TakeDamage(1);
         transform.Translate(Vector3.back * 0.5f);
         yield return new WaitForSeconds(.1f);
         transform.Translate(Vector3.zero);
-        anim.SetBool("hit", false);
         canTakeDamage = true;
     }
 
@@ -43,6 +40,7 @@ public class HealthSystem : MonoBehaviour
         yield return new WaitForSeconds(1);
         Death.gameObject.SetActive(true);
         Time.timeScale = 0;
+        ClickPause.SetActive(false);
         
     }
     IEnumerator powerup()
@@ -54,8 +52,7 @@ public class HealthSystem : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        myCollider = gameObject.GetComponent<Collider>();   
-         
+        myCollider = gameObject.GetComponent<Collider>();        
     }
     
     void FixedUpdate()
@@ -185,15 +182,12 @@ public class HealthSystem : MonoBehaviour
         {
             myCollider.enabled = false;
             canDie = false;
-            //Destroy(Movement);
-            StartCoroutine(death());
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);    
+            StartCoroutine(death());    
         }
     }
 
     public void TakeDamage(int d) {
         {
-            //hearts[life-1].gameObject.SetActive(false);
             life -= d;
         }
     }
@@ -210,13 +204,15 @@ public class HealthSystem : MonoBehaviour
     {
         if (other.CompareTag("Spike") && life > 0 && canTakeDamage == true)
         {
-            canTakeDamage = false; 
+            canTakeDamage = false;
+            anim.SetTrigger("inHit"); 
             StartCoroutine(hit());
         }
 
         if (other.CompareTag("Spike1") && life > 0 && canTakeDamage == true)
         {
             canTakeDamage = false; 
+            anim.SetTrigger("inHit"); 
             StartCoroutine(hit1());
         }
         
@@ -224,7 +220,7 @@ public class HealthSystem : MonoBehaviour
         {
             PowerUp(1);
             Destroy(heal);
-            anim.SetBool("heal", true);
+            anim.SetTrigger("inHeal"); 
             StartCoroutine(powerup());
         }
 

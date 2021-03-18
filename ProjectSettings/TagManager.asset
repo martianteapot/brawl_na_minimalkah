@@ -14,6 +14,7 @@ TagManager:
   - Push
   - Trolley
   - Spike1
+  - HitBox
   layers:
   - Default
   - TransparentFX

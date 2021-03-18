@@ -8,21 +8,13 @@ public class SwordandShield : MonoBehaviour
     public Animator anim;
     bool blockPossible = true;
     bool attackPossible = true;
-    [SerializeField]
-    Joystick joystick;
-    //bool attackPossible = false;
     public GameObject mySword;
     public GameObject myShield;
-    public AudioSource playerAudioSource;
+    //public AudioSource playerAudioSource;
 
     IEnumerator shield()
-    {
-        blockPossible = false;
-        HealthSystem.canTakeDamage = false;
-        anim.SetBool("block", true);
-        myShield.GetComponent<Collider>().enabled = true;
-        yield return new WaitForSeconds(0.5f);
-        inBlock();
+    { 
+        yield return new WaitForSeconds(0.3f);
         myShield.GetComponent<Collider>().enabled = false;
         HealthSystem.canTakeDamage = true;
         blockPossible = true;
@@ -30,62 +22,31 @@ public class SwordandShield : MonoBehaviour
 
     IEnumerator sword()
     {
-        
-        mySword.GetComponent<Collider>().enabled = true;
-        anim.SetBool("slash", true);
-        
-        yield return new WaitForSeconds(1);
-        playerAudioSource.Play();
-        inAttack();
+        yield return new WaitForSeconds(0.3f);
         mySword.GetComponent<Collider>().enabled = false;
-        yield return new WaitForSeconds(1);
         attackPossible = true;
     }
         
-    void FixedUpdate()
+    public void Attack()
     { 
         if(attackPossible == true)
         {  
-          if(joystick.Horizontal > 0 || joystick.Horizontal < 0 || joystick.Vertical > 0 || joystick.Vertical < 0)
-        {
+            mySword.GetComponent<Collider>().enabled = true;
+            anim.SetTrigger("attack");
             attackPossible = false;
             StartCoroutine(sword());
-        }
         }  
     }
     
     public void Block()
     {
         if(blockPossible == true && HealthSystem.canTakeDamage == true)
-        {
-        
+        {     
+        anim.SetTrigger("inBlock");
+        myShield.GetComponent<Collider>().enabled = true;
+        blockPossible = false;
+        HealthSystem.canTakeDamage = false;
         StartCoroutine(shield());
-        return;
         }         
-    }
-
-    //void Attack()
-    //{
-        /*if(attackPossible == true && joystick.Horizontal == 0 || joystick.Vertical == 0)
-        {
-            //anim.SetBool("slash", true);
-            StartCoroutine(sword());
-        }*/ 
-        
-             
-    //}
-
-    public void inBlock()
-    {
-        anim.SetBool("block", false);    
-    }
-
-    void inAttack()
-    {
-        
-        anim.SetBool("slash", false);    
-    }
-
-    
-
+    }  
 }

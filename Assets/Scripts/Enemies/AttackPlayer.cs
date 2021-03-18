@@ -15,28 +15,28 @@ public class AttackPlayer : MonoBehaviour
     // Start is called before the first frame update
     IEnumerator sword()
     {
+        yield return new WaitForSeconds(.5f);
+        if(deadman == false){
+            anim.SetTrigger("inAttack");
+            orcSword.GetComponent<Collider>().enabled = true;
+            }
         canAttack = false;
-        anim.SetBool("isAttack", true);
-        orcSword.GetComponent<Collider>().enabled = true;
         yield return new WaitForSeconds(1.5f);
         orcSword.GetComponent<Collider>().enabled = false;
-        anim.SetBool("isAttack", false);
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(1);
         canAttack = true;
     }
 
     IEnumerator gethit()
     {
-        anim.SetBool("getHit", true);
         transform.Translate(Vector3.back);
         yield return new WaitForSeconds(.5f);
         transform.Translate(Vector3.zero);
-        anim.SetBool("getHit", false);
     }
 
     IEnumerator dieorc()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
         Destroy(orc);
     }
 
@@ -48,11 +48,6 @@ public class AttackPlayer : MonoBehaviour
         if(deadman == false)
         {
             agent.destination = target.position; 
-        }
-
-        if(deadman == false && canAttack == true)
-        {
-            StartCoroutine(sword()); 
         }
 
     }
@@ -69,8 +64,14 @@ public class AttackPlayer : MonoBehaviour
 
         if (other.CompareTag("Shield"))
         {
+            anim.SetTrigger("inHit");
             StartCoroutine(gethit());
+        }
+
+        if (other.CompareTag("HitBox"))
+        {
             
+            StartCoroutine(sword());
         }
 
     }
