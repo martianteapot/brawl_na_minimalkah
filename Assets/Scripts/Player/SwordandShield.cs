@@ -10,6 +10,8 @@ public class SwordandShield : MonoBehaviour
     bool attackPossible = true;
     public GameObject mySword;
     public GameObject myShield;
+    bool attack_input_down;
+    bool shield_input_down;
     //public AudioSource playerAudioSource;
 
     IEnumerator shield()
@@ -26,7 +28,24 @@ public class SwordandShield : MonoBehaviour
         mySword.GetComponent<Collider>().enabled = false;
         attackPossible = true;
     }
-        
+
+    void Update() {
+        attack_input_down = Input.GetKeyDown(KeyCode.Mouse0);
+        shield_input_down = Input.GetKeyDown(KeyCode.Mouse1);
+
+        if (attack_input_down)
+        {
+            Attack();
+        }
+
+        if (shield_input_down)
+        {
+            Block();
+        }
+
+    }
+    
+
     public void Attack()
     { 
         if(attackPossible == true)
